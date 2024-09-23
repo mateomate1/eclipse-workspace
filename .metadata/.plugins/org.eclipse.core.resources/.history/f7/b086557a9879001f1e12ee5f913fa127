@@ -1,0 +1,12 @@
+package AAD.UD02E01.MateoAyarra;
+
+import java.io.File;
+
+public class Archivo {
+	public String absolutePath;
+
+	public Archivo(String absolutePath) {
+		this.absolutePath = absolutePath;
+	}
+	
+}

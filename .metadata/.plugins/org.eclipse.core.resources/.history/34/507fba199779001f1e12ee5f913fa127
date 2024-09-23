@@ -1,0 +1,7 @@
+package AAD.UD02E01.MateoAyarra;
+
+import java.io.File;
+
+public class Directorio extends File {
+
+}

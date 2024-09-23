@@ -1,0 +1,9 @@
+package AAD.UD02E01.MateoAyarra;
+
+public class Fichero extends Archivo {
+
+	public Fichero(String absolutePath) {
+		super(absolutePath);
+	}
+	
+}

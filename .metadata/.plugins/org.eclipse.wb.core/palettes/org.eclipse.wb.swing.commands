@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<addCategory
+		id="category_1726831641983"
+		name="Custom"
+		description="Container for custom components"
+		visible="true"
+		open="true"/>
+	<addComponent
+		id="custom_1726831641982"
+		name="ButtonActionListener"
+		description="Creates javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener component."
+		visible="true"
+		class="javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener"
+		category="category_1726831641983"/>
+	<addComponent
+		id="custom_1726831770353"
+		name="Button"
+		description="Creates java.awt.Button component."
+		visible="true"
+		class="java.awt.Button"
+		category="category_1726831641983"/>
+</commands>

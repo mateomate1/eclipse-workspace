@@ -1,0 +1,9 @@
+package AAD.UD02E01.MateoAyarra;
+
+import java.util.List;
+
+public class Directorio extends Archivo {
+	
+	public List<Archivo> contenido;
+	
+}
