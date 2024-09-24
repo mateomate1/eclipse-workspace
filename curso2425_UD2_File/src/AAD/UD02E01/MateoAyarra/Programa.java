@@ -1,18 +1,19 @@
 package AAD.UD02E01.MateoAyarra;
 
 import java.io.File;
-import java.io.IOException;
 
 public class Programa {
 
 	public static void main(String[] args) {
-		File fichero = new File(System.getProperty("user.dir")+System.getProperty("file.separator")+"mateo.txt");
-		try {
-			if (!fichero.createNewFile()) {
-				
-			}
-		} catch (IOException e) {
-			// TODO: handle exception
+		
+		if(args.length == 1) {
+			if ((new File(args[0]).exists()))
+				FicherosClase.recorrerDirectorio(args[0]);
+			else
+				System.out.println("El directorio o la ruta no existen.");
+		}
+		else {
+			System.out.println("Numero de parametros incorrectos. Se esperaba 1 y se han pasado "+args.length);
 		}
 	}
 
