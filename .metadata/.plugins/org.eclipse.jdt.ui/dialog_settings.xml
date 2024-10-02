@@ -116,6 +116,7 @@
 		<item key="updateTextualMatches" value="false"/>
 		<item key="updateQualifiedNames" value="false"/>
 		<item key="patterns" value="*"/>
+		<item key="renameSubpackages" value="false"/>
 	</section>
 	<section name="SourceActionDialog.methods">
 		<item key="LimitElements" value="false"/>
@@ -156,6 +157,7 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\alumno\Desktop\DAM2\AAD\curso2425_FlujoBinario3_Servidor.jar"/>
 			<item value="C:\Users\alumno\Desktop\DAM2\AAD\UD02P03_RandomAccessFile.jar"/>
 			<item value="C:\Users\alumno\Desktop\DAM2\AAD\UD02P01_File.jar"/>
 		</list>
