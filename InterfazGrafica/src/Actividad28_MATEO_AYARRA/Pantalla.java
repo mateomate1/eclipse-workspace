@@ -1,14 +1,17 @@
 package Actividad28_MATEO_AYARRA;
 
 import java.awt.BorderLayout;
+import java.awt.Component;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
+import javax.swing.UIManager;
 
 public class Pantalla extends JFrame{
 	
@@ -30,6 +33,7 @@ public class Pantalla extends JFrame{
 	public Pantalla() {
 		initComponents();
 		setSize(600,400);
+		initlaf();
 	}
 	
 	private void initComponents() {
@@ -39,8 +43,19 @@ public class Pantalla extends JFrame{
 		TextArea.setLineWrap(true);
 		TextArea.setEditable(false);
 		
+		 TextArea.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));//up, left, bottom, right
+		
 		panelLetrasNumeros = new JPanel();
 		panelEspeciales = new JPanel();
+		
+		panelLetrasNumeros.setBorder(BorderFactory.createCompoundBorder(//Metodo para crear un borde externo
+			    BorderFactory.createEmptyBorder(10, 10, 10, 0),  // Borde externo de 10 píxeles
+			    panelLetrasNumeros.getBorder()  // Mantiene el borde original interno, si lo hay
+			));
+		panelEspeciales.setBorder(BorderFactory.createCompoundBorder(
+			    BorderFactory.createEmptyBorder(10, 0, 10, 10),  // Borde externo de 10 píxeles
+			    panelEspeciales.getBorder()  // Mantiene el borde original interno, si lo hay
+			));
 		
 		ButtonBack = new JButton("BACK");
 		ButtonBack.addActionListener(new ActionListener() {
@@ -82,8 +97,12 @@ public class Pantalla extends JFrame{
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				if(mayus) {
-					mayus=(!mayus);
+				mayus = !mayus;
+				for (Component c : panelLetrasNumeros.getComponents()) {
+					if(c instanceof JButton) {
+						JButton tecla = (JButton) c;
+						tecla.setText(mayus?tecla.getText().toUpperCase():tecla.getText().toLowerCase());
+					}
 				}
 			}
 		});
@@ -108,7 +127,7 @@ public class Pantalla extends JFrame{
 			}
 		}
 		
-		panelEspeciales.setLayout(new GridLayout(4,1));
+		panelEspeciales.setLayout(new GridLayout(5,1));
 		panelEspeciales.add(ButtonBack);
 		panelEspeciales.add(ButtonEnter);
 		panelEspeciales.add(ButtonMayus);
@@ -121,16 +140,45 @@ public class Pantalla extends JFrame{
 		add(panelLetrasNumeros,BorderLayout.CENTER);
 		add(panelEspeciales,BorderLayout.EAST);
 		
+		pack();
 	}
+	
+	public void initlaf() {
+		/*Lookandfields:
+			"Windows"
+			"Windows Classic"
+			"Nimbus"
+			"Metal"
+			"Motif"
+		*/
+
+	try {
+	    for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+	        if ("Windows".equals(info.getName())) {
+	            javax.swing.UIManager.setLookAndFeel(info.getClassName());
+	            break;
+	        }
+	    }
+	    TextArea.setText("Look and field actual:"+ UIManager.getLookAndFeel().getName());
+	} 
+	catch (ClassNotFoundException | InstantiationException | IllegalAccessException | javax.swing.UnsupportedLookAndFeelException ex) {
+	    java.util.logging.Logger.getLogger(Pantalla.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+	}
+	
+}
 
 	public static void main(String[] args) {
-		javax.swing.SwingUtilities.invokeLater(new Runnable() {
-			@Override
-			public void run() {
-				Pantalla pantalla = new Pantalla();
-				pantalla.setVisible(true);
+
+	    // Crear y mostrar la ventana
+	    javax.swing.SwingUtilities.invokeLater(new Runnable() {
+	        @Override
+	        public void run() {
+	            Pantalla pantalla = new Pantalla();
+	            pantalla.setVisible(true);
 	        }
 	    });
 	}
+
+
 
 }
