@@ -25,8 +25,10 @@ public class Main {
 		}
 		
 		for (Alumno alumno : alumnos) {
-			
+			System.out.println(alumno);
 		}
+		
+		XMLManager.generarNuevoXML(alumnos);
 		
 	}
 

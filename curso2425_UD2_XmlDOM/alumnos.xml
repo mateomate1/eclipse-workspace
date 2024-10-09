@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--<!DOCTYPE alumnos SYSTEM "alumnos.dtd"> -->
+<!DOCTYPE alumnos SYSTEM "alumnos.dtd">
 <alumnos>
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="C:\Users\jsala\iCloudDrive\02 - Docencia\IES Ciudad Escolar\AAD\xml\alumnos.xsd">
   <alumno>
     <expediente>11111</expediente>
     <nombre>carlitos</nombre>

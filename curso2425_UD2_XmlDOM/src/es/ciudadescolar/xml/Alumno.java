@@ -11,6 +11,9 @@ public class Alumno {
 		this.nombre = nombre;
 		this.edad = edad;
 	}
+	
+	public Alumno() {
+	}
 
 	public String getExpediente() {
 		return expediente;

@@ -159,7 +159,6 @@ public class Pantalla extends JFrame{
 	            break;
 	        }
 	    }
-	    TextArea.setText("Look and field actual:"+ UIManager.getLookAndFeel().getName());
 	} 
 	catch (ClassNotFoundException | InstantiationException | IllegalAccessException | javax.swing.UnsupportedLookAndFeelException ex) {
 	    java.util.logging.Logger.getLogger(Pantalla.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
