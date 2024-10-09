@@ -182,7 +182,7 @@ public class XMLManager {
 		
 	}
 	
-	public static List<String> recuperarExpedientes (File fichero){ // NodeList getElementByTagName(Strin
+	public static List<String> recuperarExpedientes (File fichero){ // NodeList getElementByTagName(String)
 		return null;
 	}
 }
