@@ -154,7 +154,7 @@ public class Pantalla extends JFrame{
 
 	try {
 	    for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-	        if ("Windows".equals(info.getName())) {
+	        if ("Metal".equals(info.getName())) {
 	            javax.swing.UIManager.setLookAndFeel(info.getClassName());
 	            break;
 	        }
