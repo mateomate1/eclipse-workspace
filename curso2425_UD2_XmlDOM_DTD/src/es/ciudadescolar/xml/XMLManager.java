@@ -194,22 +194,10 @@ public class XMLManager {
 			Document documento = db.parse(fichero);// Importar el Document de w3c.dom
 			
 			Element raiz = documento.getDocumentElement();// Importar el Element de w3c.dom
-			// Recuperamos el elemento raiz del XML: "alumnos"
+			// Recuperamos el elemento raiz del XML: "expediente"
 			System.out.println("Se dispone de "+ raiz.getChildNodes().getLength()+" nodos");
 			
 			NodeList NodosAlumnos = raiz.getChildNodes();
-			
-			for (int i=0; i<NodosAlumnos.getLength(); i++) {
-				Node nodoAlumno = NodosAlumnos.item(i);
-				
-				if (nodoAlumno.getNodeType() == Node.ELEMENT_NODE) {
-					Element elementoAlumno = (Element) nodoAlumno;
-					Node nodoExpediente = elementoAlumno.getFirstChild();//Esto devuelve el primer nodo del elemento Alumno: Expediente lo que seria (<expediente>11111</expediente>)
-
-					//alumno.setExpediente(nodoExpediente.getTextContent());// Recoger el contenido del nodo, solo funciona con elementos sin sub-elementos
-					
-				}
-			}
 			
 		} catch (ParserConfigurationException e) {
 			System.out.println("Error: "+e.getMessage());

@@ -49,7 +49,7 @@ public class inicio {
 	private void initialize() {
 		int i = 0;
 		frame = new JFrame();
-		frame.getContentPane().setBackground(Color fondo = new Color());
+		//frame.getContentPane().setBackground(Color fondo = new Color());
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(new GridLayout(3, 3, 2, 2));
@@ -60,9 +60,8 @@ public class inicio {
 		slider.addChangeListener(new ChangeListener() {
 			
 			@Override
-			public int stateChanged(ChangeEvent e) {
+			public void stateChanged(ChangeEvent e) {
 				int valor = slider.getValue();
-				return valor;
 			}
 		});
 	}

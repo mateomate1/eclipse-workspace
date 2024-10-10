@@ -29,6 +29,9 @@ public class Main {
 		}
 		
 		XMLManager.generarNuevoXML(alumnos);
+		for (String exp : XMLManager.recuperarExpedientes(ficheroXML)) {
+			System.out.println(exp);
+		}
 		
 	}
 
