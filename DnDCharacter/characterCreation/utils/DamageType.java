@@ -4,19 +4,19 @@ package utils;
  * Enum que representa los diferentes tipos de daño que pueden causar las armas.
  */
 public enum DamageType {
-    BLUDGEONING("Contundente"), // Daño contundente
-    PIERCING("Perforante"),      // Daño perforante
-    SLASHING("Cortante"),       // Daño cortante
-    FIRE("Fuego"),               // Daño por fuego
-    COLD("Frío"),                // Daño por frío
-    LIGHTNING("Rayos"),         // Daño por rayos
-    ACID("Ácido"),               // Daño por ácido
-    POISON("Veneno"),            // Daño por veneno
-    RADIANT("Radiante"),         // Daño radiante
-    NECROTIC("Necrotico"),      // Daño necrótico
-    FORCE("Fuerza"),            // Daño de fuerza
-    THUNDER("Trueno"),          // Daño por trueno
-    PSYCHIC("Psíquico");        // Daño psíquico
+	
+	ACIDO("Ácido"),
+	CONTUNDENTE("Contundente"),
+	CORTANTE("Cortante"),
+	FRIO("Frío"),
+	FUEGO("Fuego"),
+	FUERZA("Fuerza"),
+	NECROTICO("Necrotico"),
+	PERFORANTE("Perforante"),
+	PSIQUICO("Psíquico"),
+	RADIANTE("Radiante"),
+	RAYOS("Rayos"),
+	TRUENO("Trueno");
 
     private final String description; // Descripción del tipo de daño
 

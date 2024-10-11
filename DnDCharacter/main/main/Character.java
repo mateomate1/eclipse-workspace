@@ -17,6 +17,7 @@ public class Character {
 				flaws;
 	protected Integer 
 				level,//Varias cosas dependen del nivel(MaxHitPoints/MaxHitDice)
+				xp,
 				age,
 				armor,//Cambio con algunos hechizos 
 				initiative,
@@ -28,5 +29,5 @@ public class Character {
 	private ArrayList<ClassFeatures> features;
 	private Dice dice;
 	private ArrayList<Object> objetos;//Necesario sumar el peso
-
+	
 }

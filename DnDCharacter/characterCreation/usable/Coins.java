@@ -1,8 +1,9 @@
 package usable;
 
-import utils.Currency;
+import utils.Divisa;
 
 public class Coins {
 	protected Integer amount;
-	protected Currency currency; //divisa
+	protected Divisa divisa;
+	
 }
