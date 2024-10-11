@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weapons>
+    <weapon>
+        <name>Bastón</name>
+        <cost>2 pp</cost>
+        <damage>1d6</damage>
+        <damageType>Contundente</damageType>
+        <weight>4 lb</weight>
+        <properties>Versátil (1d8)</properties>
+    </weapon>
+    <weapon>
+        <name>Daga</name>
+        <cost>2 po</cost>
+        <damage>1d4</damage>
+        <damageType>Perforante</damageType>
+        <weight>1 lb</weight>
+        <properties>Arrojadiza (20/60), ligera, sutil</properties>
+    </weapon>
+    <weapon>
+        <name>Golpe desarmado</name>
+        <cost>—</cost>
+        <damage>1</damage>
+        <damageType>Contundente</damageType>
+        <weight>—</weight>
+        <properties>—</properties>
+    </weapon>
+    <weapon>
+        <name>Gran clava</name>
+        <cost>2 pp</cost>
+        <damage>1d8</damage>
+        <damageType>Contundente</damageType>
+        <weight>10 lb</weight>
+        <properties>A 2 manos</properties>
+    </weapon>
+    <weapon>
+        <name>Hacha de mano</name>
+        <cost>5 po</cost>
+        <damage>1d6</damage>
+        <damageType>Cortante</damageType>
+        <weight>2 lb</weight>
+        <properties>Arrojadiza (20/60), ligera</properties>
+    </weapon>
+    <weapon>
+        <name>Hoz</name>
+        <cost>1 po</cost>
+        <damage>1d4</damage>
+        <damageType>Cortante</damageType>
+        <weight>2 lb</weight>
+        <properties>Ligera</properties>
+    </weapon>
+    <weapon>
+        <name>Jabalina</name>
+        <cost>5 pp</cost>
+        <damage>1d6</damage>
+        <damageType>Perforante</damageType>
+        <weight>2 lb</weight>
+        <properties>Arrojadiza (30/120)</properties>
+    </weapon>
+    <weapon>
+        <name>Lanza</name>
+        <cost>1 po</cost>
+        <damage>1d6</damage>
+        <damageType>Perforante</damageType>
+        <weight>3 lb</weight>
+        <properties>Arrojadiza (20/60), versátil (1d8)</properties>
+    </weapon>
+    <weapon>
+        <name>Martillo ligero</name>
+        <cost>2 po</cost>
+        <damage>1d4</damage>
+        <damageType>Contundente</damageType>
+        <weight>2 lb</weight>
+        <properties>Arrojadiza (20/60), ligera</properties>
+    </weapon>
+    <weapon>
+        <name>Maza</name>
+        <cost>5 po</cost>
+        <damage>1d6</damage>
+        <damageType>Contundente</damageType>
+        <weight>4 lb</weight>
+        <properties>—</properties>
+    </weapon>
+    <weapon>
+        <name>Clava</name>
+        <cost>1 pp</cost>
+        <damage>1d4</damage>
+        <damageType>Contundente</damageType>
+        <weight>2 lb</weight>
+        <properties>Ligera</properties>
+    </weapon>
+    <weapon>
+        <name>Arco corto</name>
+        <cost>25 po</cost>
+        <damage>1d6</damage>
+        <damageType>Perforante</damageType>
+        <weight>2 lb</weight>
+        <properties>A 2 manos, munición (80/320)</properties>
+    </weapon>
+    <weapon>
+        <name>Ballesta ligera</name>
+        <cost>25 po</cost>
+        <damage>1d8</damage>
+        <damageType>Perforante</damageType>
+        <weight>5 lb</weight>
+        <properties>A 2 manos, munición (80/320), recarga</properties>
+    </weapon>
+    <weapon>
+        <name>Dardo</name>
+        <cost>5 pc</cost>
+        <damage>1d4</damage>
+        <damageType>Perforante</damageType>
+        <weight>1/4 lb</weight>
+        <properties>Arrojadiza (20/60)</properties>
+    </weapon>
+    <weapon>
+        <name>Honda</name>
+        <cost>1 pp</cost>
+        <damage>1d4</damage>
+        <damageType>Contundente</damageType>
+        <weight>—</weight>
+        <properties>Munición (30/120)</properties>
+    </weapon>
+    <weapon>
+        <name>Alabarda</name>
+        <cost>20 po</cost>
+        <damage>1d10</damage>
+        <damageType>Cortante</damageType>
+        <weight>6 lb</weight>
+        <properties>A 2 manos, alcance, pesada</properties>
+    </weapon>
+    <weapon>
+        <name>Atarraga</name>
+        <cost>10 po</cost>
+        <damage>2d6</damage>
+        <damageType>Contundente</damageType>
+        <weight>10 lb</weight>
+        <properties>A 2 manos, pesada</properties>
+    </weapon>
+    <weapon>
+        <name>Cimitarra</name>
+        <cost>25 po</cost>
+        <damage>1d6</damage>
+        <damageType>Cortante</damageType>
+        <weight>3 lb</weight>
+        <properties>Ligera, sutil</properties>
+    </weapon>
+    <weapon>
+        <name>Espada corta</name>
+        <cost>10 po</cost>
+        <damage>1d6</damage>
+        <damageType>Cortante</damageType>
+        <weight>2 lb</weight>
+        <properties>Ligera, sutil</properties>
+    </weapon>
+    <weapon>
+        <name>Espada larga</name>
+        <cost>15 po</cost>
+        <damage>1d8</damage>
+        <damageType>Cortante</damageType>
+        <weight>3 lb</weight>
+        <properties>Versátil (1d10)</properties>
+    </weapon>
+    <weapon>
+        <name>Espadón</name>
+        <cost>50 po</cost>
+        <damage>2d6</damage>
+        <damageType>Cortante</damageType>
+        <weight>6 lb</weight>
+        <properties>A 2 manos, pesada</properties>
+    </weapon>
+    <weapon>
+        <name>Estoque</name>
+        <cost>25 po</cost>
+        <damage>1d8</damage>
+        <damageType>Perforante</damageType>
+        <weight>2 lb</weight>
+        <properties>Sutil</properties>
+    </weapon>
+    <weapon>
+        <name>Hacha de batalla</name>
+        <cost>10 po</cost>
+        <damage>1d8</damage>
+        <damageType>Cortante</damageType>
+        <weight>4 lb</weight>
+        <properties>Versátil (1d10)</properties>
+    </weapon>
+    <weapon>
+        <name>Gran hacha</name>
+        <cost>30 po</cost>
+        <damage>1d12</damage>
+        <damageType>Cortante</damageType>
+        <weight>7 lb</weight>
+        <properties>A 2 manos, pesada</properties>
+    </weapon>
+    <weapon>
+        <name>Guja</name>
+        <cost>20 po</cost>
+        <damage>1d10</damage>
+        <damageType>Cortante</damageType>
+        <weight>6 lb</weight>
+        <properties>A 2 manos, alcance, pesada</properties>
+    </weapon>
+    <weapon>
+        <name>Lanza de caballería</name>
+        <cost>10 po</cost>
+        <damage>1d12</damage>
+        <damageType>Perforante</damageType>
+        <weight>6 lb</weight>
+        <properties>Alcance, especial</properties>
+    </weapon>
+    <weapon>
+        <name>Látigo</name>
+        <cost>2 po</cost>
+        <damage>1d4</damage>
+        <damageType>Cortante</damageType>
+        <weight>3 lb</weight>
+        <properties>Alcance, sutil</properties>
+    </weapon>
+    <weapon>
+        <name>Lucero del alba</name>
+        <cost>15 po</cost>
+        <damage>1d8</damage>
+        <damageType>Perforante</damageType>
+        <weight>4 lb</weight>
+        <properties>—</properties>
+    </weapon>
+    <weapon>
+        <name>Martillo de guerra</name>
+        <cost>15 po</cost>
+        <damage>1d8</damage>
+        <damageType>Contundente</damageType>
+        <weight>2 lb</weight>
+        <properties>Versátil (1d10)</properties>
+    </weapon>
+    <weapon>
+        <name>Mayal</name>
+        <cost>10 po</cost>
+        <damage>1d8</damage>
+        <damageType>Contundente</damageType>
+        <weight>2 lb</weight>
+        <properties>—</properties>
+    </weapon>
+    <weapon>
+        <name>Pica</name>
+        <cost>5 po</cost>
+        <damage>1d10</damage>
+        <damageType>Perforante</damageType>
+        <weight>18 lb</weight>
+        <properties>A 2 manos, alcance, pesada</properties>
+    </weapon>
+    <weapon>
+        <name>Pica de guerra</name>
+        <cost>5 po</cost>
+        <damage>1d8</damage>
+        <damageType>Perforante</damageType>
+        <weight>2 lb</weight>
+        <properties>—</properties>
+    </weapon>
+    <weapon>
+        <name>Tridente</name>
+        <cost>5 po</cost>
+        <damage>1d6</damage>
+        <damageType>Perforante</damageType>
+        <weight>4 lb</weight>
+        <properties>Arrojadiza (20/60), versátil</properties>
+    </weapon>
+    <weapon>
+        <name>Arco largo</name>
+        <cost>50 po</cost>
+        <damage>1d8</damage>
+        <damageType>Perforante</damageType>
+        <weight>2 lb</weight>
+        <properties>A 2 manos, munición (150/600), pesada</properties>
+    </weapon>
+    <weapon>
+        <name>Ballesta de mano</name>
+        <cost>75 po</cost>
+        <damage>1d6</damage>
+        <damageType>Perforante</damageType>
+        <weight>3 lb</weight>
+        <properties>Ligera, munición (30/120), recarga</properties>
+    </weapon>
+    <weapon>
+        <name>Ballesta pesada</name>
+        <cost>50 po</cost>
+        <damage>1d10</damage>
+        <damageType>Perforante</damageType>
+        <weight>18 lb</weight>
+        <properties>A 2 manos, munición (100/400), pesada, recarga</properties>
+    </weapon>
+    <weapon>
+        <name>Cerbatana</name>
+        <cost>10 po</cost>
+        <damage>1</damage>
+        <damageType>Perforante</damageType>
+        <weight>1 lb</weight>
+        <properties>Munición (25/100), recarga</properties>
+    </weapon>
+    <weapon>
+        <name>Red</name>
+        <cost>1 po</cost>
+        <damage>—</damage>
+        <damageType>—</damageType>
+        <weight>3 lb</weight>
+        <properties>Arrojadiza (5/15), especial</properties>
+    </weapon>
+</weapons>
