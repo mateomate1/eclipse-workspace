@@ -15,6 +15,7 @@ import java.util.Random;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.SwingUtilities;
@@ -22,6 +23,7 @@ import javax.swing.UIManager;
 
 public class Pantalla extends JFrame implements KeyListener{
 	
+	private JOptionPane advertencia;
 	private Random random = new Random();
 	private String texto = "";
 	private boolean mayus = true;
@@ -103,8 +105,9 @@ public class Pantalla extends JFrame implements KeyListener{
 				buton.addActionListener(new ActionListener() {
 					@Override
 					public void actionPerformed(ActionEvent e) {
-						texto += buton.getText();
-						TextArea.setText(texto);
+//						texto += buton.getText();
+//						TextArea.setText(texto);
+						setText(buton.getText());
 						
 						Pantalla.this.requestFocusInWindow();//Volver a hacer focus en el teclado
 					}
@@ -141,7 +144,7 @@ public class Pantalla extends JFrame implements KeyListener{
 
 	try {
 	    for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-	        if ("Metal".equals(info.getName())) {
+	        if ("Windows".equals(info.getName())) {
 	            javax.swing.UIManager.setLookAndFeel(info.getClassName());
 	            break;
 	        }
@@ -156,9 +159,12 @@ public class Pantalla extends JFrame implements KeyListener{
 	@Override
 	public void keyTyped(KeyEvent e) {
 		// Obtener el carácter introducido
-        char c = e.getKeyChar();
+        Character c = e.getKeyChar();
+        c = c.toUpperCase(c);
         // Agregarlo al String (puedes modificar cómo manejar el texto)
-        texto += c;
+        if (existe(c)) {
+        	setText(c.toString());
+        }
         // Aquí puedes añadir lógica adicional si es necesario
 	}
 	@Override
@@ -171,10 +177,20 @@ public class Pantalla extends JFrame implements KeyListener{
 	public boolean existe(char tecla) {
 		boolean salida = false;
 		for(JButton t : teclas) {
-			if (tecla == t.getText().toLowerCase().charAt(0)) 
+			if (tecla == t.getText().toUpperCase().charAt(0)) 
 				salida = true;
 		}
 		return salida;
+	}
+	
+	public void setText(String letra) {
+		String temp = texto+letra;
+		if(temp.length() > 5)
+			JOptionPane.showMessageDialog(this, "Has alcanzado el limite de caracteres");
+		else {
+			TextArea.setText(temp);
+			texto = temp;
+		}
 	}
 	
 	public static void main(String[] args) {
