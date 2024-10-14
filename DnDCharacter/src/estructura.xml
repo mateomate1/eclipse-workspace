@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DnDCharacterCreator>
+    <src>
+        <folder name="Characters"/>
+        <folder name="Resources">
+            <file name="EspecialWeapon.yaml" type="yaml"/>
+            <file name="esquema.txt" type="txt"/>
+            <file name="estructura.txt" type="txt"/>
+            <file name="estructura.yaml" type="yaml"/>
+            <file name="Weapons.xml" type="xml"/>
+            <file name="Weapons.xsd" type="xsd"/>
+        </folder>
+    </src>
+    <main>
+        <folder name="characters"/>
+        <folder name="mainLogic">
+            <file name="Character.java" type="java"/>
+            <file name="Main.java" type="java"/>
+        </folder>
+    </main>
+    <characterCreation>
+        <folder name="background"/>
+        <folder name="clases"/>
+        <folder name="equipment"/>
+        <magic>
+            <file name="Cantrips.java" type="java"/>
+            <file name="Spell.java" type="java"/>
+        </magic>
+        <folder name="personality"/>
+        <folder name="race"/>
+        <folder name="skills"/>
+        <folder name="stats"/>
+        <usable>
+            <file name="Coins.java" type="java"/>
+            <file name="Object.java" type="java"/>
+            <file name="Projectiles.java" type="java"/>
+            <file name="Weapon.java" type="java"/>
+        </usable>
+        <utils>
+            <file name="ClassFeatures.java" type="java"/>
+            <file name="Damage.java" type="java"/>
+            <file name="DamageType.java" type="java"/>
+            <file name="Dice.java" type="java"/>
+            <file name="Divisa.java" type="java"/>
+            <file name="Property.java" type="java"/>
+            <file name="Skills.java" type="java"/>
+            <file name="Tupla.java" type="java"/>
+        </utils>
+    </characterCreation>
+    <UI>
+        <cli>
+            <file name="Menu.java" type="java"/>
+            <file name="InputHandler.java" type="java"/>
+        </cli>
+        <logic>
+            <characterCreator>
+                <file name="CharacterCreator.java" type="java"/>
+            </characterCreator>
+            <Readers>
+                <file name="XMLManager.java" type="java"/>
+            </Readers>
+        </logic>
+    </UI>
+</DnDCharacterCreator>

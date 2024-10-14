@@ -50,6 +50,7 @@ public class Pantalla extends JFrame implements KeyListener{
 		requestFocusInWindow();//Hacer focus en el teclado
 		
 		addKeyListener(this);
+		
 	}
 	
 	private void initComponents() {

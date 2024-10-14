@@ -1,0 +1,14 @@
+descripcionesArmasEspeciales:
+  armas:
+    - nombre: "Lanza"
+      descripcion:
+        - "Desventaja cuando se utiliza para atacar a un objetivo dentro de un radio de 5 pies cerca de ti."
+        - "Requiere dos manos para empuñarla cuando no estás montado."
+        
+    - nombre: "Red"
+      descripcion:
+        - "Una criatura grande o más pequeño impactada por una red es retenida hasta que se libere."
+        - "No tiene efecto en criaturas sin forma o criaturas enormes o muy grandes."
+        - "Acción para realizar una prueba de Fuerza a CD 10 para liberarse."
+        - "Haciendo 5 puntos de daño cortante a la red (CA 10) libera a la criatura sin dañarla."
+        - "Solo puedes hacer un ataque sin importar el número de ataques que puedas hacer normalmente."

@@ -1,0 +1,48 @@
+DnDCharacterCreator:
+ src:
+  - Characters: []
+  - EspecialWeapon.yaml
+  - esquema.txt
+  - estructura.txt
+  - estructura.yaml
+  - Weapons.xml
+  - Weapons.xsd
+ main:
+  characters: []
+  main:
+    - Character.java
+    - Main.java
+ characterCreation:
+  background: []
+  clases: []
+  equipment: []
+  magic:
+   - Cantrips.java
+   - Spell.java
+  personality: []
+  race: []
+  skills: []
+  stats: []
+  usable:
+   - Coins.java
+   - Object.java
+   - Projectiles.java
+   - Weapon.java
+  utils:
+   - ClassFeatures.java
+   - Damage.java
+   - DamageType.java
+   - Dice.java
+   - Divisa.java
+   - Property.java
+   - Skills.java
+   - Tupla.java
+ UI:
+  cli:
+   - Menu.java
+   - UnputHandler.java
+ logic:
+  characterCreator:
+   - CharacterCreator.java
+  Readers:
+   - XMLManager.java

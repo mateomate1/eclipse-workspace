@@ -60,6 +60,8 @@
 		<item key="create_unimplemented" value="true"/>
 	</section>
 	<section name="completion_proposal_size">
+		<item key="contextSelector.size.x" value="331"/>
+		<item key="contextSelector.size.y" value="221"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
@@ -170,6 +172,7 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\alumno\Desktop\DAM2\DI\Actividad2.9_Mateo_Ayarra.jar"/>
 			<item value="C:\Users\alumno\Desktop\DAM2\AAD\curso2425_FlujoBinario3_Servidor.jar"/>
 			<item value="C:\Users\alumno\Desktop\DAM2\AAD\UD02P03_RandomAccessFile.jar"/>
 			<item value="C:\Users\alumno\Desktop\DAM2\AAD\UD02P01_File.jar"/>
@@ -208,5 +211,8 @@
 		<item key="DIALOG_WIDTH" value="542"/>
 		<item key="DIALOG_HEIGHT" value="517"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="JavaEditorCodeMiningConfigurationBlock">
+		<item key="expanded0" value="true"/>
 	</section>
 </section>

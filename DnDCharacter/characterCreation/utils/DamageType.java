@@ -5,15 +5,15 @@ package utils;
  */
 public enum DamageType {
 	
-	ACIDO("Ácido"),
+	ACIDO("Acido"),
 	CONTUNDENTE("Contundente"),
 	CORTANTE("Cortante"),
-	FRIO("Frío"),
+	FRIO("Frio"),
 	FUEGO("Fuego"),
 	FUERZA("Fuerza"),
 	NECROTICO("Necrotico"),
 	PERFORANTE("Perforante"),
-	PSIQUICO("Psíquico"),
+	PSIQUICO("Psiquico"),
 	RADIANTE("Radiante"),
 	RAYOS("Rayos"),
 	TRUENO("Trueno");
