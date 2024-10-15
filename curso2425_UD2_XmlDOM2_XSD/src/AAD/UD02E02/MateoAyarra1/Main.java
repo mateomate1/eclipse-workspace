@@ -12,11 +12,7 @@ public class Main {
 		File ficheroXML = new File("allitems.xml");
 		File ficheroTXT = new File("CVEs_20231025.txt");
 		ArrayList<Vulnerabilidad> vulnerabilidades = XMLManager.traductor(ficheroXML);
-		try {
-			TXTManager.volcado(ficheroTXT, vulnerabilidades);
-		} catch (IOException e) {
-			System.out.println("Error");
-		}
+		TXTManager.volcado(ficheroTXT, vulnerabilidades);
 		
 		end = System.currentTimeMillis();
 		current = (end-start)/1000;

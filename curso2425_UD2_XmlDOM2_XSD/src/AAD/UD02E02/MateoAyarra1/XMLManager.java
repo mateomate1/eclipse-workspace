@@ -102,14 +102,15 @@ public class XMLManager {
 						Node subnodo = subnodos.item(j);
 						if (subnodo.getNodeType() == Node.ELEMENT_NODE ) {
 							if (subnodo.getNodeName() == "status") {
-								vulnerabilidad.setStatus(subnodo.getNodeValue());
+								vulnerabilidad.setStatus(subnodo.getTextContent());
 							} else if (subnodo.getNodeName() == "desc") {
-								vulnerabilidad.setDesc(subnodo.getNodeValue());
+								vulnerabilidad.setDesc(subnodo.getTextContent());
 							} 
 						}
 					}
 					
 				}
+				vulnerabilidades.add(vulnerabilidad);
 			}
 			
 		} catch (SAXException | ParserConfigurationException| IOException e) {

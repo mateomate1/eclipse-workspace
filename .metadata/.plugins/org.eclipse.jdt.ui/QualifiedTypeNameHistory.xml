@@ -51,8 +51,6 @@
     <fullyQualifiedTypeName name="utils.Dice"/>
     <fullyQualifiedTypeName name="utils.DamageType"/>
     <fullyQualifiedTypeName name="utils.Damage"/>
-    <fullyQualifiedTypeName name="org.w3c.dom.Element"/>
-    <fullyQualifiedTypeName name="org.w3c.dom.Node"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="AAD.UD02E02.MateoAyarra1.Vulnerabilidad"/>
     <fullyQualifiedTypeName name="java.io.File"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="AAD.UD02E02.MateoAyarra1.TXTManager"/>
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.Element"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.Node"/>
 </qualifiedTypeNameHistroy>
