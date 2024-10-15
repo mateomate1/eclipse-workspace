@@ -1,5 +1,5 @@
-package Readers;
+package readers;
 
 public class XMLManager {
-	
+
 }
