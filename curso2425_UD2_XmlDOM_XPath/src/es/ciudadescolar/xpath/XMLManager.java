@@ -16,6 +16,8 @@ import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -24,6 +26,7 @@ import org.xml.sax.SAXException;
 
 public class XMLManager {
 	private static Document documento;
+	private static final Logger LOGGER = LoggerFactory.getLogger(XMLManager.class);
 	
 	public static boolean parsearXmlDomXsd(File xml, File xsd) {
 		
@@ -33,6 +36,7 @@ public class XMLManager {
 		SchemaFactory sf = null;
 		Schema schema = null;
 		
+		LOGGER.trace("Preparando el document builder factory: Espacios en blanco, validacion no DTD, namespace por defecto...");
 		dbf = DocumentBuilderFactory.newInstance();
 		dbf.setIgnoringElementContentWhitespace(true);
 		dbf.setValidating(false);
@@ -41,14 +45,16 @@ public class XMLManager {
 		sf = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
 		
 		try {
+			LOGGER.trace("Creando schema a partir del fichero XSD: ["+xsd.getAbsolutePath()+"]");
 			schema = sf.newSchema(xsd);
 			dbf.setSchema(schema);
 			db = dbf.newDocumentBuilder();
 			
+			LOGGER.trace("Comenzando parseo del fichero XML ["+xml.getAbsolutePath()+"]");
 			documento = db.parse(xml);
 			
 		} catch (SAXException | ParserConfigurationException | IOException e) {
-			System.out.println("Error: "+e.getMessage());
+			LOGGER.error("Error: "+e.getMessage());
 			return false;
 		}
 		
@@ -76,7 +82,7 @@ public class XMLManager {
 			
 			alumno = new Alumno(expediente, nom, curso, instituto, edad);
 			
-		} catch (XPathExpressionException e) {
+		} catch (XPathExpressionException | NullPointerException e) {
 			System.out.println("Error: "+e.getMessage());
 		}
 		

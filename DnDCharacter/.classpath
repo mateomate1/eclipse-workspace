@@ -10,5 +10,8 @@
 	<classpathentry kind="src" path="characterCreation"/>
 	<classpathentry kind="src" path="UI"/>
 	<classpathentry kind="src" path="logic"/>
+	<classpathentry kind="lib" path="loggers/logback-classic-1.5.8.jar"/>
+	<classpathentry kind="lib" path="loggers/logback-core-1.5.8.jar"/>
+	<classpathentry kind="lib" path="loggers/slf4j-api-2.0.16.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
