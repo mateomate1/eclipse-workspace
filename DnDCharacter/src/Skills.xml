@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skills xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="skills.xsd"> <!-- Cambia 'skills.xsd' por la ruta correcta de tu archivo XSD -->
+    <skill name="Acrobacias" caracteristicas="Dex"/>
+    <skill name="Manejo de Animales" caracteristicas="Wis"/>
+    <skill name="Arcanos" caracteristicas="Int"/>
+    <skill name="Atletismo" caracteristicas="Str"/>
+    <skill name="Engano" caracteristicas="Cha"/>
+    <skill name="Historia" caracteristicas="Int"/>
+    <skill name="Averiguar Intenciones" caracteristicas="Wis"/>
+    <skill name="Intimidacion" caracteristicas="Cha"/>
+    <skill name="Investigacion" caracteristicas="Int"/>
+    <skill name="Medicina" caracteristicas="Wis"/>
+    <skill name="Naturaleza" caracteristicas="Int"/>
+    <skill name="Percepcion" caracteristicas="Wis"/>
+    <skill name="Interpretacion" caracteristicas="Cha"/>
+    <skill name="Persuasion" caracteristicas="Cha"/>
+    <skill name="Religion" caracteristicas="Int"/>
+    <skill name="Juego de Manos" caracteristicas="Dex"/>
+    <skill name="Sigilo" caracteristicas="Dex"/>
+    <skill name="Supervivencia" caracteristicas="Wis"/>
+</Skills>

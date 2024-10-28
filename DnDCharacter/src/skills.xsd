@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Skills">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="skill" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:attribute name="name" type="xs:string" use="required"/> <!-- Atributo name -->
+                        <xs:attribute name="caracteristicas" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Dex"/>
+                                    <xs:enumeration value="Wis"/>
+                                    <xs:enumeration value="Str"/>
+                                    <xs:enumeration value="Int"/>
+                                    <xs:enumeration value="Cha"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute> <!-- Atributo caracteristicas -->
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

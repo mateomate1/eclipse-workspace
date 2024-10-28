@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<weapons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="weapons.xsd">
+<weapons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="weapons.xsd">
     <weapon name="Baston">
         <cost currency="pp">2</cost>
         <damage tipo="contundente">1d6</damage>
