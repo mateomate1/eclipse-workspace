@@ -16,7 +16,7 @@ public class Pantalla extends JFrame implements Serializable{
 	
 	private JButton ButtonAdd;
 	private JButton ButtonShow;
-	private JButton ButtonDelete;
+	private JButton ButtonDelete; //Hacer q el metodo que recoge el checkbox coja la posicion para cuadrar con el del array
 	
 	private JPanel panel;
 	
