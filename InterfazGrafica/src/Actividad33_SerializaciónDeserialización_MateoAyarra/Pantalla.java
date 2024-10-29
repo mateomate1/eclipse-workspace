@@ -8,109 +8,91 @@ import java.util.ArrayList;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JPanel;
 
 public class Pantalla extends JFrame {
 
-	private final String ruta = "archivo.dat";
+    private static final long serialVersionUID = 1L;
+    private final String ruta = "archivo.dat";
 
-	private JButton ButtonAdd;
-	private JButton ButtonShow;
-<<<<<<< Updated upstream
-	private JButton ButtonDelete; //Hacer q el metodo que recoge el checkbox coja la posicion para cuadrar con el del array
-	
-	private JPanel panel;
-	
-=======
-	private JButton ButtonDelete;
+    private JButton ButtonAdd;
+    private JButton ButtonShow;
+    private JButton ButtonDelete;
+    
+    private JPanel panel;
+    private ArrayList<Alumno> alumnos = new ArrayList<>();
 
-	private ArrayList<Alumno> alumnos = new ArrayList<Alumno>();
+    public Pantalla() {
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        initComponents();
+    }
 
->>>>>>> Stashed changes
-	/**
-	 * Create the frame.
-	 */
-	public Pantalla() {
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		initComponents();
-	}
+    private void initComponents() {
 
-	private void initComponents() {
+        ButtonAdd = new JButton("Añadir alumno");
+        ButtonAdd.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                actionAlta(e);
+            }
+        });
 
-		ButtonAdd = new JButton("Anadir alumno");
-		ButtonAdd.addActionListener(new ActionListener() {
+        ButtonShow = new JButton("Ver alumnos");
+        ButtonShow.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                actionShow(e);
+            }
+        });
 
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
-				actionAlta(e);
-			}
-		});
+        ButtonDelete = new JButton("Eliminar alumno");
+        ButtonDelete.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                actionDelete(e);
+            }
+        });
 
-		ButtonShow = new JButton("Ver alumnos");
-		ButtonShow.addActionListener(new ActionListener() {
+        setLayout(new FlowLayout(FlowLayout.CENTER, 15, 50));
+        add(ButtonAdd);
+        add(ButtonDelete);
+        add(ButtonShow);
 
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
-				actionShow(e);
-			}
-		});
+        pack();
+    }
 
-		ButtonDelete = new JButton("Eliminar alumno");
-		ButtonDelete.addActionListener(new ActionListener() {
+    public void actionAlta(ActionEvent e) {
+        Alta alta = new Alta(this, true);
+        alta.setVisible(true);
+    }
 
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
-				actionDelete(e);
-			}
-		});
+    public void actionShow(ActionEvent e) {
+        VerAlumnos ver = new VerAlumnos(this, true);
+    }
 
-		setLayout(new FlowLayout(FlowLayout.CENTER, 15, 50));
-//		panel.setLayout(new FlowLayout(FlowLayout.CENTER));
-		add(ButtonAdd);
-		add(ButtonDelete);
-		add(ButtonShow);
+    public void actionDelete(ActionEvent e) {
+        Eliminar del = new Eliminar(this, true);
+    }
 
-		pack();
-	}
+    public void addAlumno(Alumno al) {
+        alumnos.add(al);
+        GestorBin.add(ruta, al);
+    }
 
-	public void actionAlta(ActionEvent e) {
-		Alta alta = new Alta(this, true);
-		alta.setVisible(true);
-	}
+    public static void main(String[] args) {
+        EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                try {
+                    Pantalla frame = new Pantalla();
+                    frame.setVisible(true);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
 
-	public void actionShow(ActionEvent e) {
-		VerAlumnos ver = new VerAlumnos(this, true);
-	}
-
-	public void actionDelete(ActionEvent e) {
-		Eliminar del = new Eliminar(this, true);
-	}
-
-	public void addAlumno(Alumno al) {
-		alumnos.add(al);
-		GestorBin.add(ruta, al);
-	}
-
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					Pantalla frame = new Pantalla();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
-	public String getRuta() {
-		return ruta;
-	}
-
+    public String getRuta() {
+        return ruta;
+    }
 }

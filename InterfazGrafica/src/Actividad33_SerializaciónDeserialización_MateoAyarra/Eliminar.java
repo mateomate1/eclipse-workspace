@@ -22,7 +22,7 @@ public class Eliminar extends JDialog {
 	private DefaultListModel<Alumno> modeloLista;
 	private Pantalla pantalla;
 	
-	private JPanel panel;
+	private JPanel panelBotones;
 	
 	private JButton buttonDelete, buttonVaciar;
 
@@ -47,13 +47,19 @@ public class Eliminar extends JDialog {
 		listaAlumnos.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		JScrollPane scrollPane = new JScrollPane(listaAlumnos);
 		
+		// Crear botones y panel
 		buttonDelete = new JButton("Eliminar");
 		buttonDelete.addActionListener(this::eliminarAlumno);
 		buttonVaciar = new JButton("Vaciar");
 		buttonVaciar.addActionListener(this::vaciarAlumnos);
 		
+		panelBotones = new JPanel();
+		panelBotones.add(buttonDelete);
+		panelBotones.add(buttonVaciar);
+		
+		// Agregar componentes al layout
 		add(scrollPane, BorderLayout.CENTER);
-		add(buttonDelete, BorderLayout.SOUTH);
+		add(panelBotones, BorderLayout.SOUTH);
 
 		pack();
 		setLocationRelativeTo(pantalla);
@@ -77,11 +83,13 @@ public class Eliminar extends JDialog {
 	}
 	
 	private void vaciarAlumnos(ActionEvent e) {
-		if (alumnos.isEmpty()) 
+		if (alumnos.isEmpty()) {
 			JOptionPane.showMessageDialog(this, "No hay alumnos que vaciar...");
-		else {
+		} else {
+			modeloLista.clear(); // Limpiar el modelo de la lista visualmente
+			alumnos.clear(); // Limpiar la lista de alumnos en memoria
+			GestorBin.vaciar(pantalla.getRuta()); // Vaciar el archivo
 			JOptionPane.showMessageDialog(this, "Alumnos eliminados correctamente...");
-			GestorBin.vaciar(pantalla.getRuta());			
 		}
 	}
 }
