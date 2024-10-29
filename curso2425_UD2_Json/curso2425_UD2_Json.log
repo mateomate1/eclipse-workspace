@@ -1,0 +1,77 @@
+2024-10-29 11:49:52,141 [main] INFO  es.ciudadescolar.Main                    - JSON!
+2024-10-29 11:53:31,314 [main] INFO  es.ciudadescolar.Main                    - JSON!
+2024-10-29 11:53:31,323 [main] DEBUG es.ciudadescolar.Main                    - {"notas":[8.5,7,5.75],"nombre":"Manolo","edad":20}
+2024-10-29 11:56:57,301 [main] INFO  es.ciudadescolar.Main                    - JSON!
+2024-10-29 11:56:57,308 [main] DEBUG es.ciudadescolar.Main                    - {
+  "notas": [
+    8.5,
+    7,
+    5.75
+  ],
+  "nombre": "Manolo",
+  "edad": 20
+}
+2024-10-29 11:57:05,983 [main] INFO  es.ciudadescolar.Main                    - JSON!
+2024-10-29 11:57:05,993 [main] DEBUG es.ciudadescolar.Main                    - {
+ "notas": [
+  8.5,
+  7,
+  5.75
+ ],
+ "nombre": "Manolo",
+ "edad": 20
+}
+2024-10-29 11:57:11,788 [main] INFO  es.ciudadescolar.Main                    - JSON!
+2024-10-29 11:57:11,797 [main] DEBUG es.ciudadescolar.Main                    - {
+   "notas": [
+      8.5,
+      7,
+      5.75
+   ],
+   "nombre": "Manolo",
+   "edad": 20
+}
+2024-10-29 11:57:51,216 [main] INFO  es.ciudadescolar.Main                    - JSON!
+2024-10-29 11:57:51,224 [main] DEBUG es.ciudadescolar.Main                    - {
+                                                                                                    "notas": [
+                                                                                                                                                                                                        8.5,
+                                                                                                                                                                                                        7,
+                                                                                                                                                                                                        5.75
+                                                                                                    ],
+                                                                                                    "nombre": "Manolo",
+                                                                                                    "edad": 20
+}
+2024-10-29 11:58:08,260 [main] INFO  es.ciudadescolar.Main                    - JSON!
+2024-10-29 11:58:08,268 [main] DEBUG es.ciudadescolar.Main                    - {
+          "notas": [
+                    8.5,
+                    7,
+                    5.75
+          ],
+          "nombre": "Manolo",
+          "edad": 20
+}
+2024-10-29 11:58:15,935 [main] INFO  es.ciudadescolar.Main                    - JSON!
+2024-10-29 11:58:15,943 [main] DEBUG es.ciudadescolar.Main                    - {
+  "notas": [
+    8.5,
+    7,
+    5.75
+  ],
+  "nombre": "Manolo",
+  "edad": 20
+}
+2024-10-29 11:59:42,978 [main] INFO  es.ciudadescolar.Main                    - JSON!
+2024-10-29 11:59:42,987 [main] DEBUG es.ciudadescolar.Main                    - {
+  "notas": [
+    8.5,
+    7,
+    5.75
+  ],
+  "nombre": "Manolo",
+  "edad": 20
+}
+2024-10-29 12:18:40,314 [main] INFO  es.ciudadescolar.Main                    - JSON!
+2024-10-29 12:18:40,322 [main] DEBUG es.ciudadescolar.Main                    - {"notas":[8.5,7,5.75],"nombre":"Manolo","edad":20}
+2024-10-29 12:18:40,323 [main] DEBUG es.ciudadescolar.Main                    - {"notas":[8.5,7,5.75],"nombre":"Manolo","edad":20}
+2024-10-29 12:18:40,323 [main] DEBUG es.ciudadescolar.Main                    - {"notas":[2,4.5,5],"nombre":"Fermin","edad":19}
