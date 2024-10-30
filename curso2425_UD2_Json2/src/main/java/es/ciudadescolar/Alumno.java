@@ -1,4 +1,4 @@
-package es.ciudadescolar.xpath;
+package es.ciudadescolar;
 
 public class Alumno {
 	
