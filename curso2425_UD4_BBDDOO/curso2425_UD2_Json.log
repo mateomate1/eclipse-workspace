@@ -1,0 +1,119 @@
+2024-11-06 12:05:51,278 [main] ERROR es.ciudadescolar.Main                    - Error de parametros. Se esperaba [nombre fichero BBDDOO]
+2024-11-06 12:06:21,980 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-06 12:06:21,994 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha guardado correctamente el alumno [Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-06 12:06:22,001 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-06 12:22:13,951 [main] WARN  es.ciudadescolar.BBDDOO                  - BDD existente. Se procede a borrar
+2024-11-06 12:22:14,114 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-06 12:22:14,127 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha guardado correctamente el alumno [Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-06 12:22:14,132 [main] INFO  es.ciudadescolar.Main                    - Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-06 12:22:14,139 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-06 12:22:22,138 [main] WARN  es.ciudadescolar.BBDDOO                  - BDD existente. Se procede a borrar
+2024-11-06 12:22:22,305 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-06 12:22:22,315 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha guardado correctamente el alumno [Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-06 12:22:22,322 [main] WARN  es.ciudadescolar.BBDDOO                  - No se ha encontrado alumnos con expediente [4444]
+2024-11-06 12:23:32,294 [main] WARN  es.ciudadescolar.BBDDOO                  - BDD existente. Se procede a borrar
+2024-11-06 12:23:32,461 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-06 12:23:32,471 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha guardado correctamente el alumno [Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-06 12:23:32,476 [main] WARN  es.ciudadescolar.BBDDOO                  - No se ha encontrado alumnos con expediente [4444]
+2024-11-06 12:23:32,483 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 12:47:46,453 [main] WARN  es.ciudadescolar.BBDDOO                  - BDD existente. Se procede a borrar
+2024-11-07 12:47:46,640 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 12:47:46,652 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha guardado correctamente el alumno [Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-07 12:47:46,658 [main] INFO  es.ciudadescolar.BBDDOO                  - Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-07 12:47:46,666 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 12:47:46,666 [main] DEBUG es.ciudadescolar.Main                    - Abriendo BDD abierta sin borrar...
+2024-11-07 12:47:46,678 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 12:47:46,680 [main] INFO  es.ciudadescolar.Main                    - Alumno encontrado [Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]]
+2024-11-07 12:47:46,682 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:10:04,225 [main] WARN  es.ciudadescolar.BBDDOO                  - BDD existente. Se procede a borrar
+2024-11-07 13:10:04,397 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:10:04,407 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha guardado correctamente el alumno [Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-07 13:10:04,413 [main] INFO  es.ciudadescolar.BBDDOO                  - Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-07 13:10:04,419 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:10:04,419 [main] DEBUG es.ciudadescolar.Main                    - Abriendo BDD abierta sin borrar...
+2024-11-07 13:10:04,430 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:10:04,432 [main] INFO  es.ciudadescolar.Main                    - Alumno encontrado [Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]]
+2024-11-07 13:10:04,434 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:10:04,439 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:10:04,441 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha modificado correctamente el alumno.
+2024-11-07 13:10:04,442 [main] INFO  es.ciudadescolar.Main                    - Alumno encontrado [Alumno [expediente=9999, nombre=Paco, edad=24, curso=DAM2, instituto=IES Ciudad Escolar]]
+2024-11-07 13:10:04,445 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:18:08,063 [main] WARN  es.ciudadescolar.BBDDOO                  - BDD existente. Se procede a borrar
+2024-11-07 13:18:08,241 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:18:08,251 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha guardado correctamente el alumno [Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-07 13:18:08,256 [main] INFO  es.ciudadescolar.BBDDOO                  - Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-07 13:18:08,265 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:18:08,265 [main] DEBUG es.ciudadescolar.Main                    - Abriendo BDD abierta sin borrar...
+2024-11-07 13:18:08,276 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:18:08,277 [main] INFO  es.ciudadescolar.BBDDOO                  - Visualizando alumnos obtenidos en la BDD
+2024-11-07 13:18:08,279 [main] INFO  es.ciudadescolar.BBDDOO                  - Alumno encontrado [Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]]
+2024-11-07 13:18:08,281 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:18:08,287 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:18:08,288 [main] DEBUG es.ciudadescolar.Main                    - Se procede a cambiar la edad del alumno con expediente [9999] edad [9999]
+2024-11-07 13:18:08,289 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha modificado correctamente el alumno.
+2024-11-07 13:18:08,290 [main] INFO  es.ciudadescolar.BBDDOO                  - Visualizando alumnos obtenidos en la BDD
+2024-11-07 13:18:08,290 [main] INFO  es.ciudadescolar.BBDDOO                  - Alumno encontrado [Alumno [expediente=9999, nombre=Paco, edad=24, curso=DAM2, instituto=IES Ciudad Escolar]]
+2024-11-07 13:18:08,294 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:32:37,408 [main] WARN  es.ciudadescolar.BBDDOO                  - BDD existente. Se procede a borrar
+2024-11-07 13:32:37,573 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:32:37,584 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha guardado correctamente el alumno [Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-07 13:32:37,589 [main] INFO  es.ciudadescolar.BBDDOO                  - Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-07 13:32:37,596 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:32:37,596 [main] DEBUG es.ciudadescolar.Main                    - Abriendo BDD abierta sin borrar...
+2024-11-07 13:32:37,607 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:32:37,609 [main] INFO  es.ciudadescolar.BBDDOO                  - Visualizando alumnos obtenidos en la BDD
+2024-11-07 13:32:37,610 [main] INFO  es.ciudadescolar.BBDDOO                  - Alumno encontrado [Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]]
+2024-11-07 13:32:37,612 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:32:37,617 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:32:37,618 [main] DEBUG es.ciudadescolar.Main                    - Se procede a cambiar la edad del alumno con expediente [9999] edad [9999]
+2024-11-07 13:32:37,620 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha modificado correctamente el alumno.
+2024-11-07 13:32:37,620 [main] INFO  es.ciudadescolar.BBDDOO                  - Visualizando alumnos obtenidos en la BDD
+2024-11-07 13:32:37,620 [main] INFO  es.ciudadescolar.BBDDOO                  - Alumno encontrado [Alumno [expediente=9999, nombre=Paco, edad=24, curso=DAM2, instituto=IES Ciudad Escolar]]
+2024-11-07 13:32:37,623 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha borrado un alumno
+2024-11-07 13:32:37,623 [main] INFO  es.ciudadescolar.BBDDOO                  - Visualizando alumnos obtenidos en la BDD
+2024-11-07 13:32:37,628 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:54:37,909 [main] WARN  es.ciudadescolar.BBDDOO                  - BDD existente. Se procede a borrar
+2024-11-07 13:54:38,074 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:54:38,085 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha guardado correctamente el alumno [Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-07 13:54:38,085 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha guardado correctamente el alumno [Alumno [expediente=8888, nombre=Manolo, edad=22, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-07 13:54:38,093 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:54:57,253 [main] WARN  es.ciudadescolar.BBDDOO                  - BDD existente. Se procede a borrar
+2024-11-07 13:54:57,458 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:54:57,477 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha guardado correctamente el alumno [Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-07 13:54:57,477 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha guardado correctamente el alumno [Alumno [expediente=8888, nombre=Manolo, edad=22, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-07 13:54:57,478 [main] DEBUG es.ciudadescolar.BBDDOO                  - Rollback realizado en la BDD
+2024-11-07 13:54:57,485 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:55:39,586 [main] WARN  es.ciudadescolar.BBDDOO                  - BDD existente. Se procede a borrar
+2024-11-07 13:55:39,749 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:55:39,759 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha guardado correctamente el alumno [Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-07 13:55:39,760 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha guardado correctamente el alumno [Alumno [expediente=8888, nombre=Manolo, edad=22, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-07 13:55:39,761 [main] DEBUG es.ciudadescolar.BBDDOO                  - Rollback realizado en la BDD
+2024-11-07 13:55:39,768 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:55:39,768 [main] DEBUG es.ciudadescolar.Main                    - Abriendo BDD abierta sin borrar...
+2024-11-07 13:55:39,780 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:55:39,781 [main] INFO  es.ciudadescolar.BBDDOO                  - Visualizando alumnos obtenidos en la BDD
+2024-11-07 13:55:39,783 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:55:39,789 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:55:39,790 [main] DEBUG es.ciudadescolar.Main                    - Se procede a cambiar la edad del alumno con expediente [9999] edad [9999]
+2024-11-07 13:55:39,791 [main] WARN  es.ciudadescolar.BBDDOO                  - No hay coincidencias de alumnos...
+2024-11-07 13:55:39,792 [main] INFO  es.ciudadescolar.BBDDOO                  - Visualizando alumnos obtenidos en la BDD
+2024-11-07 13:55:39,792 [main] WARN  es.ciudadescolar.BBDDOO                  - No se ha borrado ningun alumno porque la no habia ninguno guardado
+2024-11-07 13:55:39,792 [main] INFO  es.ciudadescolar.BBDDOO                  - Visualizando alumnos obtenidos en la BDD
+2024-11-07 13:55:39,835 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:57:36,393 [main] WARN  es.ciudadescolar.BBDDOO                  - BDD existente. Se procede a borrar
+2024-11-07 13:57:36,554 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:57:36,564 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha guardado correctamente el alumno [Alumno [expediente=9999, nombre=Paco, edad=20, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-07 13:57:36,565 [main] DEBUG es.ciudadescolar.BBDDOO                  - Se ha guardado correctamente el alumno [Alumno [expediente=8888, nombre=Manolo, edad=22, curso=DAM2, instituto=IES Ciudad Escolar]
+2024-11-07 13:57:36,566 [main] DEBUG es.ciudadescolar.BBDDOO                  - Rollback realizado en la BDD
+2024-11-07 13:57:36,574 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:57:36,574 [main] DEBUG es.ciudadescolar.Main                    - Abriendo BDD abierta sin borrar...
+2024-11-07 13:57:36,586 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:57:36,588 [main] INFO  es.ciudadescolar.BBDDOO                  - Visualizando alumnos obtenidos en la BDD
+2024-11-07 13:57:36,590 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:57:36,596 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD abierta... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
+2024-11-07 13:57:36,596 [main] DEBUG es.ciudadescolar.Main                    - Se procede a cambiar la edad del alumno con expediente [9999] edad [9999]
+2024-11-07 13:57:36,598 [main] WARN  es.ciudadescolar.BBDDOO                  - No hay coincidencias de alumnos...
+2024-11-07 13:57:36,598 [main] INFO  es.ciudadescolar.BBDDOO                  - Visualizando alumnos obtenidos en la BDD
+2024-11-07 13:57:36,598 [main] WARN  es.ciudadescolar.BBDDOO                  - No se ha borrado ningun alumno porque la no habia ninguno guardado
+2024-11-07 13:57:36,599 [main] INFO  es.ciudadescolar.BBDDOO                  - Visualizando alumnos obtenidos en la BDD
+2024-11-07 13:57:36,600 [main] INFO  es.ciudadescolar.BBDDOO                  - BDD cerrada correctamente... [C:\Users\alumno\eclipse-workspace\curso2425_UD4_BBDDOO\alumnosDB.db4o]
