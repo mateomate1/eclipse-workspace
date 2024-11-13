@@ -1,5 +1,7 @@
 package es.ciudadescolar;
 
+import java.util.Objects;
+
 public class Alumno {
 	
 	private String nombre, curso, instituto;
@@ -70,6 +72,26 @@ public class Alumno {
 
 	public void setInstituto(String instituto) {
 		this.instituto = instituto;
+	}
+
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(curso, edad, expediente, instituto, nombre);
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Alumno other = (Alumno) obj;
+		return Objects.equals(curso, other.curso) && edad == other.edad && expediente == other.expediente
+				&& Objects.equals(instituto, other.instituto) && Objects.equals(nombre, other.nombre);
 	}
 	
 

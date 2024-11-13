@@ -3,7 +3,7 @@ package es.ciudadescolar;
 public class Main {
 	
 	public static void main(String[] args) {
-		Instituto insti = new Instituto();
+		Instituto insti = new Instituto("0000");
 		Alumno alumno1 = new Alumno(101, "Ana Martínez", "1º ESO", "Instituto Central", 12);
         Alumno alumno2 = new Alumno(102, "Carlos López", "2º ESO", "Instituto Norte", 13);
         Alumno alumno3 = new Alumno(103, "Beatriz Sánchez", "3º ESO", "Instituto Sur", 14);
@@ -17,8 +17,9 @@ public class Main {
         insti.matricularAlumno(alumno5);
         insti.matricularAlumno(alumno6);
         
-        insti.expulsarAlumno(alumno6);
+        insti.expulsarAlumno(alumno1);
         
+        System.out.println(insti);
         
 	}
 

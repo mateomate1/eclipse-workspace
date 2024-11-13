@@ -41,7 +41,7 @@ public class Main {
 			if (true) throw new Exception();
 			bdo.guardarAlumno(alumno3);
 			// commit
-
+			bdo.commit();
 			Alumno alumnoBuscado = bdo.getAlumnoByExpediente("9999");
 			if (alumnoBuscado != null) {
 				log.info("Alumno encontrado [" + alumnoBuscado + "]");
