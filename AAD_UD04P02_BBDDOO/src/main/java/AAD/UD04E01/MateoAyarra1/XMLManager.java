@@ -78,8 +78,9 @@ public class XMLManager {
         BufferedInputStream in = null;
         FileOutputStream out = null;
         ficheroXML = new File(FILE_NAME);
-
+        
         if (!ficheroXML.exists()) {
+        	log.debug("Iniciando descarga del archivo desde la URL ["+FILE_URL+"]");
 			try {
 				in = new BufferedInputStream(new URL(FILE_URL).openStream());
 				out = new FileOutputStream(FILE_NAME);
