@@ -1,0 +1,18 @@
+2024-11-19 13:21:22,825 [main] ERROR UD02A02_XML_DOM.XmlManager               - Errorschema_reference.4: Failed to read schema document 'file:/C:/Users/alumno/eclipse-workspace/PracticasAAD/CVEs_20231025.txt', because 1) could not find the document; 2) the document could not be read; 3) the root element of the document is not <xsd:schema>.
+2024-11-19 13:24:02,132 [main] ERROR UD02A02_XML_DOM.XmlManager               - ErrorPremature end of file.
+2024-11-19 13:24:35,863 [main] ERROR UD02A02_XML_DOM.XmlManager               - ErrorPremature end of file.
+2024-11-19 13:24:35,867 [main] DEBUG UD02A02_XML_DOM.TXTManager               - Iniciando volcado a fichero:
+2024-11-19 13:26:52,521 [main] ERROR UD02A02_XML_DOM.XmlManager               - ErrorPremature end of file.
+2024-11-19 13:26:52,524 [main] DEBUG UD02A02_XML_DOM.TXTManager               - Iniciando volcado a fichero:
+2024-11-19 13:34:34,833 [main] ERROR UD02A02_XML_DOM.XmlManager               - ErrorPremature end of file.
+2024-11-19 13:34:34,836 [main] DEBUG UD02A02_XML_DOM.TXTManager               - Iniciando volcado a fichero:
+2024-11-19 13:36:58,707 [main] ERROR UD02A02_XML_DOM.XmlManager               - ErrorPremature end of file.
+2024-11-19 13:36:58,710 [main] DEBUG UD02A02_XML_DOM.TXTManager               - Iniciando volcado a fichero:
+2024-11-19 13:41:48,432 [main] ERROR UD02A02_XML_DOM.XmlManager               - ErrorPremature end of file.
+2024-11-19 13:41:48,435 [main] DEBUG UD02A02_XML_DOM.TXTManager               - Iniciando volcado a fichero:
+2024-11-19 13:43:07,430 [main] ERROR UD02A02_XML_DOM.XmlManager               - ErrorPremature end of file.
+2024-11-19 13:43:07,433 [main] DEBUG UD02A02_XML_DOM.TXTManager               - Iniciando volcado a fichero:
+2024-11-19 13:43:51,862 [main] ERROR UD02A02_XML_DOM.XmlManager               - Error linea 79Premature end of file.
+2024-11-19 13:43:51,866 [main] DEBUG UD02A02_XML_DOM.TXTManager               - Iniciando volcado a fichero:
+2024-11-19 13:46:17,972 [main] ERROR UD02A02_XML_DOM.XmlManager               - Error linea 79 Premature end of file.
+2024-11-19 13:46:17,975 [main] DEBUG UD02A02_XML_DOM.TXTManager               - Iniciando volcado a fichero:
