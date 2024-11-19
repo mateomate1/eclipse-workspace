@@ -23,11 +23,12 @@ import org.xml.sax.helpers.DefaultHandler;
 public class DistritoDefaultHandler extends DefaultHandler {
     private static final Logger log = LoggerFactory.getLogger(DistritoDefaultHandler.class);
     
-    private Map<String, Distrito> distritos;
+    private int distrito1 =0;
+    private Map<Integer, Distrito> distritos;
     private Distrito distrito;
 
     private StringBuilder sb;
-    private String key;
+    private Integer key;
 
     private final String Cod_distrito = "COD_DISTRITO";
     private final String desc_distrito = "DESC_DISTRITO";
@@ -45,8 +46,8 @@ public class DistritoDefaultHandler extends DefaultHandler {
      */
     @Override
     public void startDocument() throws SAXException {
-        log.debug("Comenzando procesamiento del fichero XML: Inicio documento");
-        distritos = new TreeMap<String, Distrito>();
+        log.trace("Comenzando procesamiento del fichero XML: Inicio documento");
+        distritos = new TreeMap<Integer, Distrito>();
     }
 
     /**
@@ -56,7 +57,7 @@ public class DistritoDefaultHandler extends DefaultHandler {
      */
     @Override
     public void endDocument() throws SAXException {
-        log.debug("Finalizando procesamiento del fichero XML: Fin de documento");
+        log.trace("Finalizando procesamiento del fichero XML: Fin de documento");
     }
 
     /**
@@ -98,19 +99,25 @@ public class DistritoDefaultHandler extends DefaultHandler {
         log.debug("Final del elemento [" + qName + "]");
 
         switch (qName) {
-            case Cod_distrito -> distrito.setCod_distrito(sb.toString());
+            case Cod_distrito -> {
+            	key = Integer.valueOf(sb.toString());
+            	distrito.setCod_distrito(key);
+            }
             case desc_distrito -> distrito.setDesc_distrito(sb.toString());
-            case num_mujeresEsp -> distrito.setMujeresEsp(sb.toString());
-            case num_mujeresExt -> distrito.setMujeresExt(sb.toString());
-            case num_hombresEsp -> distrito.setHombresEsp(sb.toString());
-            case num_hombresExt -> distrito.setHombresExt(sb.toString());
+            case num_mujeresEsp -> distrito.setMujeresEsp(Integer.parseInt(sb.toString()));
+            case num_mujeresExt -> distrito.setMujeresExt(Integer.parseInt(sb.toString()));
+            case num_hombresEsp -> distrito.setHombresEsp(Integer.parseInt(sb.toString()));
+            case num_hombresExt -> distrito.setHombresExt(Integer.parseInt(sb.toString()));
             case DISTRITO -> {
-            	key = distrito.getCod_distrito();
+            	distrito.sum();
             	if(distritos.containsKey(key)) {
-            		Distrito old = distritos.get(key);
-            		old.fuse(distrito);
+            		if(key==1) {
+            			distrito1+=distritos.get(key).getNum_hombres();
+            		}
+            		distritos.get(key).addHombres(distrito.getNum_hombres());
+            		distritos.get(key).addMujeres(distrito.getNum_mujeres());
             	} else
-            		log.warn("Nuevo distrito encontrado, anadiendo nuevo distrito.");
+            		log.warn("Nuevo distrito encontrado, anadiendo nuevo distrito ["+distrito+"]");
             		distritos.put(distrito.getCod_distrito(), distrito);
             }
         }
@@ -131,8 +138,8 @@ public class DistritoDefaultHandler extends DefaultHandler {
     public void characters(char[] ch, int start, int length) throws SAXException {
         String texto = String.valueOf(ch, start, length).trim(); // Elimina los espacios en blanco
 
-        if (!texto.isEmpty()) // Solo imprime si no esta vacio
-            log.trace("Texto localizado [" + texto + "]");
+//        if (!texto.isEmpty()) // Solo imprime si no esta vacio
+//            log.trace("Texto localizado [" + texto + "]");
 
         sb.append(ch, start, length);
     }
@@ -154,7 +161,8 @@ public class DistritoDefaultHandler extends DefaultHandler {
      * 
      * @return La lista de objetos `Distrito` extraidos del XML.
      */
-    public Map<String, Distrito> getDistrito() {
-        return distritos;
+    public Map<Integer, Distrito> getDistrito() {
+        log.error(distrito1+"");
+    	return distritos;
     }
 }

@@ -6,12 +6,16 @@ import org.slf4j.LoggerFactory;
 public class Distrito {
 	private static final Logger log = LoggerFactory.getLogger(Distrito.class);
 	
-	private String Cod_distrito, desc_distrito;
-	private Integer num_mujeres=0, num_hombres=0;
+	private Integer Cod_distrito;
+	private String desc_distrito;
+	private int hombresEsp, hombresExt;
+	private int mujeresEsp, mujeresExt;
+	private Integer num_mujeres, num_hombres;
+	
 	/**
 	 * @return the cod_distrito
 	 */
-	public String getCod_distrito() {
+	public Integer getCod_distrito() {
 		return Cod_distrito;
 	}
 	/**
@@ -19,6 +23,30 @@ public class Distrito {
 	 */
 	public String getDesc_distrito() {
 		return desc_distrito;
+	}
+	/**
+	 * @return the hombresEsp
+	 */
+	public int getHombresEsp() {
+		return hombresEsp;
+	}
+	/**
+	 * @return the hombresExt
+	 */
+	public int getHombresExt() {
+		return hombresExt;
+	}
+	/**
+	 * @return the mujeresEsp
+	 */
+	public int getMujeresEsp() {
+		return mujeresEsp;
+	}
+	/**
+	 * @return the mujeresExt
+	 */
+	public int getMujeresExt() {
+		return mujeresExt;
 	}
 	/**
 	 * @return the num_mujeres
@@ -35,7 +63,7 @@ public class Distrito {
 	/**
 	 * @param cod_distrito the cod_distrito to set
 	 */
-	public void setCod_distrito(String cod_distrito) {
+	public void setCod_distrito(Integer cod_distrito) {
 		Cod_distrito = cod_distrito;
 	}
 	/**
@@ -43,6 +71,30 @@ public class Distrito {
 	 */
 	public void setDesc_distrito(String desc_distrito) {
 		this.desc_distrito = desc_distrito;
+	}
+	/**
+	 * @param hombresEsp the hombresEsp to set
+	 */
+	public void setHombresEsp(int hombresEsp) {
+		this.hombresEsp = hombresEsp;
+	}
+	/**
+	 * @param hombresExt the hombresExt to set
+	 */
+	public void setHombresExt(int hombresExt) {
+		this.hombresExt = hombresExt;
+	}
+	/**
+	 * @param mujeresEsp the mujeresEsp to set
+	 */
+	public void setMujeresEsp(int mujeresEsp) {
+		this.mujeresEsp = mujeresEsp;
+	}
+	/**
+	 * @param mujeresExt the mujeresExt to set
+	 */
+	public void setMujeresExt(int mujeresExt) {
+		this.mujeresExt = mujeresExt;
 	}
 	/**
 	 * @param num_mujeres the num_mujeres to set
@@ -56,26 +108,24 @@ public class Distrito {
 	public void setNum_hombres(Integer num_hombres) {
 		this.num_hombres = num_hombres;
 	}
-	public void setHombresEsp(String hombresEsp) {
-		num_hombres+=Integer.valueOf(hombresEsp);
+	
+	public void addHombres(int otro) {
+		this.num_hombres += otro;
 	}
-	public void setHombresExt(String hombresExt) {
-		num_hombres+=Integer.valueOf(hombresExt);
+	public void addMujeres(int otro) {
+		this.num_mujeres += otro;
 	}
-	public void setMujeresExt(String mujeresExt) {
-		num_mujeres+=Integer.valueOf(mujeresExt);
+	
+	public void sum() {
+		num_hombres = hombresEsp+hombresExt;
+		num_mujeres = mujeresEsp+mujeresExt;
 	}
-	public void setMujeresEsp(String mujeresEsp) {
-		num_mujeres+=Integer.valueOf(mujeresEsp);
-	}
-	public void fuse(Distrito other) {
-		num_hombres+=other.getNum_hombres();
-		num_mujeres+=other.getNum_mujeres();
-	}
+
 	@Override
 	public String toString() {
-		return "Distrito [Cod_distrito=" + Cod_distrito + ", desc_distrito=" + desc_distrito + ", num_mujeres="
+		return "Distrito [Cod_distrito=" + Cod_distrito + ", num_mujeres="
 				+ num_mujeres + ", num_hombres=" + num_hombres + "]";
 	}
 	
 }
+

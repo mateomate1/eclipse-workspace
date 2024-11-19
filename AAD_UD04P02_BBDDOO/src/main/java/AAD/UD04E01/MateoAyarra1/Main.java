@@ -14,12 +14,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		XMLManager.loadURLtoFile(FILE_URL, FILE_NAME);
-		Map<String, Distrito> distritos;
+		Map<Integer, Distrito> distritos;
 		distritos = XMLManager.parseoXML();
 		BBDDOOManager db = new BBDDOOManager(false);
 		try {
 			db.deleteAllDistritos();
-			for (Map.Entry<String, Distrito> entry : distritos.entrySet()) {
+			for (Map.Entry<Integer, Distrito> entry : distritos.entrySet()) {
 	            System.out.println(entry.getKey() + " -> " + entry.getValue());
 	            db.add(entry.getValue());
 	        }

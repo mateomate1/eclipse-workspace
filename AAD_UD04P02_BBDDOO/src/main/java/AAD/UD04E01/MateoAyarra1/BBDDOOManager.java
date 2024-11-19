@@ -102,7 +102,7 @@ public class BBDDOOManager {
      * @param cod El código del distrito a recuperar.
      * @return El objeto `Distrito` correspondiente al código proporcionado, o null si no se encuentra.
      */
-	public Distrito getDistritoByCodDistrito(String cod) {
+	public Distrito getDistritoByCodDistrito(Integer cod) {
 		Distrito example = new Distrito();
 		example.setCod_distrito(cod);
 		

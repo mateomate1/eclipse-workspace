@@ -30,7 +30,7 @@ public class XMLManager {
     private static final Logger log = LoggerFactory.getLogger(XMLManager.class);
     
     private static File ficheroXML;
-    private static Map<String, Distrito> distritos;
+    private static Map<Integer, Distrito> distritos;
     
     /**
      * Procesa el archivo XML y devuelve una lista de objetos `Distrito`. 
@@ -39,7 +39,7 @@ public class XMLManager {
      * 
      * @return Lista de objetos `Distrito` con la informacion extraida del XML. Si ocurre algun error, la lista sera vacia.
      */
-    public static Map<String, Distrito> parseoXML() {
+    public static Map<Integer, Distrito> parseoXML() {
         SAXParserFactory spf = SAXParserFactory.newInstance();
         SAXParser sp = null;
         
@@ -48,7 +48,6 @@ public class XMLManager {
         try {
             sp = spf.newSAXParser();
             distritosDH = new DistritoDefaultHandler();
-            boolean x= ficheroXML.exists();
             
             sp.parse(ficheroXML, distritosDH);
             

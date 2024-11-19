@@ -78,6 +78,7 @@ public class DistritosDefaultHandler extends DefaultHandler {
 				case record:
 					String key = distrito.getCod_distrito();
 					if(distritos.containsKey(key)) {
+						LOGGER.warn("Fusionando distrito");
 						distritos.get(key).setNum_hombres(distritos.get(key).getNum_hombres()+distrito.getNum_hombres());
 						distritos.get(key).setNum_mujeres(distritos.get(key).getNum_mujeres()+distrito.getNum_mujeres());
 					}
