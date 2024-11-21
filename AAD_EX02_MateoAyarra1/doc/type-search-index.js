@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"es.ciudadescolar","l":"BBDDOOManager"},{"p":"es.ciudadescolar","l":"Hacker"},{"p":"es.ciudadescolar","l":"Programa"},{"p":"es.ciudadescolar","l":"TXTManager"}];updateSearchResults();

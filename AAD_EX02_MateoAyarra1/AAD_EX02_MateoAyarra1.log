@@ -1,0 +1,203 @@
+2024-11-20 10:56:12,187 [main] INFO  es.ciudadescolar.BBDDOOManager           - Inicialmente hay [197] hackers registrados
+2024-11-20 10:56:12,210 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoFTSNV411G5MKLPDT|Aygul|Mutellip|9.1
+2024-11-20 10:56:12,210 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoLJRIULRNJFCNZJAJ|Adil|Abro|9.32
+2024-11-20 10:56:12,210 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoU3AWXHDTSU0H82SL|John|Falzon|9.96
+2024-11-20 10:56:12,210 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontrado59QSX02O2XOZGRLH|Doreen|Bartolo|9.31
+2024-11-20 10:56:12,210 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoFCO0URUHARX5FDFW|Philip|Camilleri|9.97
+2024-11-20 10:56:12,210 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoEZXJTQQ2JWPB5DI3|Ratanang|Maphutha|9.17
+2024-11-20 10:56:12,210 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoINZITSS95L9V52JE|Boitumelo|Ngwako|9.07
+2024-11-20 10:56:12,211 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoZWMFEUEBNYTW2WPB|Einar|Einarsson|9.05
+2024-11-20 10:56:12,211 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoVXJDXYPV5L300IFW|Mmathabò|Mojapelo|9.36
+2024-11-20 10:56:12,211 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoJ9GS1RODDZL325LK|Chetana|Hegde|9.99
+2024-11-20 10:56:12,211 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoZDXF5KESMW9XF2TJ|Haris|Osmanovic|9.41
+2024-11-20 10:56:12,211 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoDX2IYTQ9IMY75W08|Kenosi|Kwenaemang|9.01
+2024-11-20 10:56:12,211 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoINRW3R54RAY7J9IS|Lajwanti|Kumari|9.34
+2024-11-20 10:56:12,211 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontrado7HI0UZZLRB9N5CBI|Matome|Molamo|9.55
+2024-11-20 10:56:12,211 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoW9FR842CI16V8NU3|Noa|Ervello|9.33
+2024-11-20 10:56:12,211 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontrado9BXLMMM1PQOZRHCR|Ingibjörg|Ólafsdóttir|9.59
+2024-11-20 10:56:12,211 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontrado7K4IJT1X7G0EK9WC|sayama|Amir|9.48
+2024-11-20 10:56:12,211 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoQUNL9VBRHUGNOFMJ|Damir|Benic|9.56
+2024-11-20 10:56:12,211 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontrado3UN0X88Y4WYH3X8X|Preeti|Rajdan|9.17
+2024-11-20 10:56:12,211 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontrado0OIB5SU9JB2PBJDV|Sonu|Jain|9.66
+2024-11-20 10:56:12,212 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontrado97IIDMHAJMBPI4ON|Adnan|Spahic|9.1
+2024-11-20 10:56:12,212 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoUEFML43TCGS04KWM|Rohini|Vasav|9.3
+2024-11-20 10:56:12,212 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoQQMNYP788DEFG4IS|Raju|Rathore|9.86
+2024-11-20 10:56:12,212 [main] INFO  es.ciudadescolar.Programa                - Hacker con nota mayor a [9.0] encontradoAFYXL0UNGMU0B1H2|Bukhosi|Bhengu|9.37
+2024-11-20 10:56:12,213 [main] DEBUG es.ciudadescolar.TXTManager              - Iniciando volcado a fichero
+2024-11-20 10:56:12,214 [main] DEBUG es.ciudadescolar.TXTManager              - Volcado a fichero finalizado con exito.
+2024-11-20 10:56:12,226 [main] DEBUG es.ciudadescolar.BBDDOOManager           - Commit realizado con exito
+2024-11-20 10:56:12,226 [main] DEBUG es.ciudadescolar.Programa                - Hackers con nota mayor a [9.0] borrados
+2024-11-20 10:56:12,227 [main] INFO  es.ciudadescolar.Programa                - Quedan [173] hackers
+2024-11-20 10:56:12,229 [main] TRACE es.ciudadescolar.Programa                - OJMWMEEQWMLDU29P|Awais|Shaikh|1.59
+2024-11-20 10:56:12,229 [main] TRACE es.ciudadescolar.Programa                - 5G646V7E6TJW8X2M|Ambreen|Ahmed|2.35
+2024-11-20 10:56:12,229 [main] TRACE es.ciudadescolar.Programa                - N1AS6UFULO6WGTLB|George|Mifsud|7.47
+2024-11-20 10:56:12,229 [main] TRACE es.ciudadescolar.Programa                - Z53AJY7WUYPLAWC9|Celtia|Anes|8.34
+2024-11-20 10:56:12,229 [main] TRACE es.ciudadescolar.Programa                - JMCL0CXNXHPL1GBC|Afonso|Vilarchán|5.21
+2024-11-20 10:56:12,229 [main] TRACE es.ciudadescolar.Programa                - ENTOCR13RSCLZ6KU|Afzal|Ghaffar|1.88
+2024-11-20 10:56:12,229 [main] TRACE es.ciudadescolar.Programa                - IAKPO3R4761JDRVG|Aamir|Solangi|7.27
+2024-11-20 10:56:12,229 [main] TRACE es.ciudadescolar.Programa                - 5ZVOEPMJUI4MB4EN|Abla|Dilmurat|2.53
+2024-11-20 10:56:12,230 [main] TRACE es.ciudadescolar.Programa                - F2KEU5L7EHYSYFTT|Adile|Qadir|1.9
+2024-11-20 10:56:12,230 [main] TRACE es.ciudadescolar.Programa                - 6VTI8X6LL0MMPJCC|Adil|Eli|6.49
+2024-11-20 10:56:12,230 [main] TRACE es.ciudadescolar.Programa                - V59OF92YF627HFY0|Adeel|Solangi|6.1
+2024-11-20 10:56:12,230 [main] TRACE es.ciudadescolar.Programa                - XOF91ZR7MHV1TXRS|Antía|Sixirei|6.44
+2024-11-20 10:56:12,230 [main] TRACE es.ciudadescolar.Programa                - 70RODUVRD95CLOJL|Aytürk|Qasim|1.32
+2024-11-20 10:56:12,230 [main] TRACE es.ciudadescolar.Programa                - BT407GHCC0IHXCD3|Brais|Verdiñas|5.01
+2024-11-20 10:56:12,230 [main] TRACE es.ciudadescolar.Programa                - 4VRLON0GPEZYFCVL|Breixo|Galáns|1.62
+2024-11-20 10:56:12,230 [main] TRACE es.ciudadescolar.Programa                - 5DRDI1QLRGLP29RC|Bieito|Lorme|4.45
+2024-11-20 10:56:12,230 [main] TRACE es.ciudadescolar.Programa                - VBLI24FKF7VV6BWE|Dialè|Meso|6.29
+2024-11-20 10:56:12,230 [main] TRACE es.ciudadescolar.Programa                - LO6DVTZLRK68528I|Abdukerim|Ibrahim|5.9
+2024-11-20 10:56:12,230 [main] TRACE es.ciudadescolar.Programa                - KU4T500C830697CW|Mark|Schembri|3.17
+2024-11-20 10:56:12,231 [main] TRACE es.ciudadescolar.Programa                - OGLODUPEHKEW0K83|Qahar|Abdulla|3.65
+2024-11-20 10:56:12,231 [main] TRACE es.ciudadescolar.Programa                - Q9A5QNGA0OSU8P6Y|Ayesha|Khalique|3.9
+2024-11-20 10:56:12,231 [main] TRACE es.ciudadescolar.Programa                - 7JA42P5CMCWDVPNR|Tatapi|Phogole|3.78
+2024-11-20 10:56:12,231 [main] TRACE es.ciudadescolar.Programa                - WPX7H97C7D70CZJR|Marcos|Amboade|7.37
+2024-11-20 10:56:12,231 [main] TRACE es.ciudadescolar.Programa                - D8VFLVRXBXMVBRVI|Shafqat|Memon|8.95
+2024-11-20 10:56:12,231 [main] TRACE es.ciudadescolar.Programa                - 5RCTVD3C5QGVAKTQ|Azrugul|Osman|3.18
+2024-11-20 10:56:12,231 [main] TRACE es.ciudadescolar.Programa                - AGZDAP8D8OVRRLTY|Ekber|Sadir|2.04
+2024-11-20 10:56:12,231 [main] TRACE es.ciudadescolar.Programa                - GV6TA1AATZYBJ3VR|Erkin|Qadir|3.53
+2024-11-20 10:56:12,231 [main] TRACE es.ciudadescolar.Programa                - 3WNLUZ5LT2F7MYVU|Ali|Ayaz|7.8
+2024-11-20 10:56:12,231 [main] TRACE es.ciudadescolar.Programa                - I6QQHAEGV4CYDXLP|Guzelnur|Polat|8.56
+2024-11-20 10:56:12,231 [main] TRACE es.ciudadescolar.Programa                - K4XO8G8DMRNSHF2B|Grace|Tabone|5.36
+2024-11-20 10:56:12,231 [main] TRACE es.ciudadescolar.Programa                - RJAZQ6BBLRT72CD9|Meladi|Papo|7.22
+2024-11-20 10:56:12,232 [main] TRACE es.ciudadescolar.Programa                - Z324TZV8S0FGDSAO|Zeynep|Semet|1.03
+2024-11-20 10:56:12,232 [main] TRACE es.ciudadescolar.Programa                - HI7L2SR4RCS8C8CS|Semet|Alim|1.01
+2024-11-20 10:56:12,232 [main] TRACE es.ciudadescolar.Programa                - QA55WXDLC7SRH97X|Sabela|Veloso|7.32
+2024-11-20 10:56:12,232 [main] TRACE es.ciudadescolar.Programa                - EG1I21R75IV9Q0Q8|Michelle|Caruana|4.95
+2024-11-20 10:56:12,232 [main] TRACE es.ciudadescolar.Programa                - IHJN2DGJB5O1Y00D|Madule|Ledimo|7.47
+2024-11-20 10:56:12,232 [main] TRACE es.ciudadescolar.Programa                - VO3M22TTQMBA2XEM|Gulnur|Perhat|5.03
+2024-11-20 10:56:12,232 [main] TRACE es.ciudadescolar.Programa                - WOCMVO6CYPG01ZHY|Olalla|Romeu|1.98
+2024-11-20 10:56:12,232 [main] TRACE es.ciudadescolar.Programa                - F8BL9NPIKV0OWO1X|Tumelò|Letamo|7.17
+2024-11-20 10:56:12,232 [main] TRACE es.ciudadescolar.Programa                - F6FJP1QDJL944X4Z|Charmaine|Abela|6.95
+2024-11-20 10:56:12,232 [main] TRACE es.ciudadescolar.Programa                - MRJDOV2MU7PTCDXE|Hunadi|Makgatho|8.18
+2024-11-20 10:56:12,232 [main] TRACE es.ciudadescolar.Programa                - AATM20BURO1DHDAE|Lesetja|Theko|6.81
+2024-11-20 10:56:12,233 [main] TRACE es.ciudadescolar.Programa                - 35ZPXUNH1M6W3ZJP|Uxía|Feal|1.31
+2024-11-20 10:56:12,233 [main] TRACE es.ciudadescolar.Programa                - UNBGUGDUATATCLS4|Rashid|Rajput|8.51
+2024-11-20 10:56:12,233 [main] TRACE es.ciudadescolar.Programa                - VEYKDKL8L0R0C7GQ|Andrew|Fenech|2.5
+2024-11-20 10:56:12,233 [main] TRACE es.ciudadescolar.Programa                - ZYCAI905154LSICR|Nicholas|Micallef|6.47
+2024-11-20 10:56:12,233 [main] TRACE es.ciudadescolar.Programa                - 8AD5MMJ0TD0NJ6H2|Paul|Borg|3.77
+2024-11-20 10:56:12,233 [main] TRACE es.ciudadescolar.Programa                - 526ZUSGXEETODHJK|Xurxo|Golán|1.75
+2024-11-20 10:56:12,233 [main] TRACE es.ciudadescolar.Programa                - NNRT5QWNWO2WLS5V|Peter|Zammit|8.23
+2024-11-20 10:56:12,233 [main] TRACE es.ciudadescolar.Programa                - NXMNLB0SOYET1VMN|Patigul|Rahman|2.98
+2024-11-20 10:56:12,233 [main] TRACE es.ciudadescolar.Programa                - H8FJ2WKLGGF3K26U|Joanne|Scerri|8.4
+2024-11-20 10:56:12,233 [main] TRACE es.ciudadescolar.Programa                - M24A9OMYPSX7FD16|Kamil|Mehmud|4.66
+2024-11-20 10:56:12,233 [main] TRACE es.ciudadescolar.Programa                - 0WT0ZW50DNSTCHKW|Kristján|Kristjánsson|8.82
+2024-11-20 10:56:12,233 [main] TRACE es.ciudadescolar.Programa                - 1UOL8UK8BWAOSYTC|Stefán|Stefánsson|7.87
+2024-11-20 10:56:12,234 [main] TRACE es.ciudadescolar.Programa                - CPHR246457BD01KY|Sanjay|Trivedi|8.3
+2024-11-20 10:56:12,234 [main] TRACE es.ciudadescolar.Programa                - 631M00M8YFFBC5NC|Thobile|Mbele|8.96
+2024-11-20 10:56:12,234 [main] TRACE es.ciudadescolar.Programa                - 9GAO62FXPQMUTTLJ|Shweta|Chourasia|5.84
+2024-11-20 10:56:12,234 [main] TRACE es.ciudadescolar.Programa                - VPK9MQRKX2L847HQ|Ayanda|Ndimande|2.89
+2024-11-20 10:56:12,234 [main] TRACE es.ciudadescolar.Programa                - IAYT285H2U8JU94F|Sigurjón|Guðmundsson|4.85
+2024-11-20 10:56:12,234 [main] TRACE es.ciudadescolar.Programa                - OQRF6Y37N20JILOC|Neo|Dikgaka|1.07
+2024-11-20 10:56:12,234 [main] TRACE es.ciudadescolar.Programa                - 4OJULHY03Z6XTRMW|Esha|Sastry|5.1
+2024-11-20 10:56:12,234 [main] TRACE es.ciudadescolar.Programa                - ZYPDGK8UDYJPTRKN|Ronak|Gupta|7.18
+2024-11-20 10:56:12,234 [main] TRACE es.ciudadescolar.Programa                - JTW9DH3B9QGB39JY|Jelena|Maric|3.39
+2024-11-20 10:56:12,234 [main] TRACE es.ciudadescolar.Programa                - 67C5ET66U59WYJ6K|Ditiro|Kgosi|4.56
+2024-11-20 10:56:12,234 [main] TRACE es.ciudadescolar.Programa                - 85MVUXVQ5H5HPA4F|Sethunya|Mpšwe|1.75
+2024-11-20 10:56:12,235 [main] TRACE es.ciudadescolar.Programa                - S879KFFIHDNK8GSE|Nayan|Mittal|3.99
+2024-11-20 10:56:12,235 [main] TRACE es.ciudadescolar.Programa                - FM300CZ0VU9LTNTE|Madhur|Jain|4.99
+2024-11-20 10:56:12,235 [main] TRACE es.ciudadescolar.Programa                - JJDPB2983QRVATD3|Kabelo|Morwe|8.86
+2024-11-20 10:56:12,235 [main] TRACE es.ciudadescolar.Programa                - 9S4SGEQWBKMRISYZ|Luka|Lovren|5.22
+2024-11-20 10:56:12,235 [main] TRACE es.ciudadescolar.Programa                - 4IJVD6OE3C7IX3ZG|Sigríður|Einarsdóttir|6.63
+2024-11-20 10:56:12,235 [main] TRACE es.ciudadescolar.Programa                - LR7FI8WEE3SLTW02|Thabani|Ngubani|5.99
+2024-11-20 10:56:12,236 [main] TRACE es.ciudadescolar.Programa                - PRWA7HE1GJ7OCYQM|Sushant|Bhargav|5.36
+2024-11-20 10:56:12,236 [main] TRACE es.ciudadescolar.Programa                - RO0ZCWFTY6MJ66AZ|Monika|Nayak|7.58
+2024-11-20 10:56:12,236 [main] TRACE es.ciudadescolar.Programa                - R1TRJT5TWANYO88D|Guðrún|Guðmundsdóttir|4.65
+2024-11-20 10:56:12,236 [main] TRACE es.ciudadescolar.Programa                - 533XA8H67VO8CSGQ|Ndumiso|Hlatshwayo|5.24
+2024-11-20 10:56:12,236 [main] TRACE es.ciudadescolar.Programa                - J1NSHQXRWA7CY0AZ|Shakti|Menon|5.16
+2024-11-20 10:56:12,236 [main] TRACE es.ciudadescolar.Programa                - 3OBF3U08WI1QF63N|Lucky|Shastry|7.86
+2024-11-20 10:56:12,236 [main] TRACE es.ciudadescolar.Programa                - UPATVXM44DAFUDI7|Pule|Matlhaku|4.12
+2024-11-20 10:56:12,236 [main] TRACE es.ciudadescolar.Programa                - SXWZ4IYT5VZA6WEE|Xolani|Ngcobo|4.77
+2024-11-20 10:56:12,236 [main] TRACE es.ciudadescolar.Programa                - 933PPBA946YX1K4X|Meenakshi|Benjaree|7.9
+2024-11-20 10:56:12,236 [main] TRACE es.ciudadescolar.Programa                - XLLVD0NO2ZFEP4AK|Anita|Rajput|5.16
+2024-11-20 10:56:12,237 [main] TRACE es.ciudadescolar.Programa                - ENTAPNU3MMFUGM1W|Antón|Caneiro|4.84
+2024-11-20 10:56:12,237 [main] TRACE es.ciudadescolar.Programa                - EELSIRT2T4Q0M3M4|Pheladi|Rammala|1.88
+2024-11-20 10:56:12,237 [main] TRACE es.ciudadescolar.Programa                - Y91F4D54794E9ANT|Reyhan|Murat|2.69
+2024-11-20 10:56:12,237 [main] TRACE es.ciudadescolar.Programa                - UGL8EOTXYBW1ILLW|Mpho|Lamola|2.05
+2024-11-20 10:56:12,237 [main] TRACE es.ciudadescolar.Programa                - NROE4ZZVGKZGDFNO|Thabò|Motongwane|2.07
+2024-11-20 10:56:12,237 [main] TRACE es.ciudadescolar.Programa                - D63WWKQE2R4TFDIL|Kgabo|Lerumo|6.69
+2024-11-20 10:56:12,237 [main] TRACE es.ciudadescolar.Programa                - ULUDKBP9PHBGHX2J|Iria|Xamardo|3.42
+2024-11-20 10:56:12,237 [main] TRACE es.ciudadescolar.Programa                - 0KDA7XKZNNZWL2SR|Lawrence|Scicluna|6.53
+2024-11-20 10:56:12,237 [main] TRACE es.ciudadescolar.Programa                - T4P1164RJBJ8S6XD|Joseph|Grech|7.68
+2024-11-20 10:56:12,237 [main] TRACE es.ciudadescolar.Programa                - CRYN52CXKNJU0YXU|Aneela|Mohan|4.45
+2024-11-20 10:56:12,237 [main] TRACE es.ciudadescolar.Programa                - 0TTAMXC9TENQCA2O|Koketšo|Montjane|3.61
+2024-11-20 10:56:12,238 [main] TRACE es.ciudadescolar.Programa                - WTDGKLDWJLR1BJKR|Tania|Agius|4.78
+2024-11-20 10:56:12,238 [main] TRACE es.ciudadescolar.Programa                - JVQ8RQ4YRPGLFMR8|Dilnur|Qeyser|7.93
+2024-11-20 10:56:12,238 [main] TRACE es.ciudadescolar.Programa                - D51G7XQTX2SPHR52|Iago|Peirallo|6.3
+2024-11-20 10:56:12,238 [main] TRACE es.ciudadescolar.Programa                - NC1ZUV6B853BZZCW|Tegra|Núnez|6.68
+2024-11-20 10:56:12,238 [main] TRACE es.ciudadescolar.Programa                - 2ANVMAVG6YX2VT6N|Rahul|Shukla|1.72
+2024-11-20 10:56:12,238 [main] TRACE es.ciudadescolar.Programa                - BXJWNTJ2TDID61PJ|Samra|Delic|2.5
+2024-11-20 10:56:12,238 [main] TRACE es.ciudadescolar.Programa                - XAHKVLM3I1WSPNIW|Mohan|Pandey|8.1
+2024-11-20 10:56:12,238 [main] TRACE es.ciudadescolar.Programa                - Y9C4HQHTOP74DFZT|Nontobeko|Nzimande|4.77
+2024-11-20 10:56:12,238 [main] TRACE es.ciudadescolar.Programa                - WF2WP6S0HX8GR8GZ|Sanjay|Puranik|3.37
+2024-11-20 10:56:12,239 [main] TRACE es.ciudadescolar.Programa                - 4OLTG6QD0A2VB432|Josephine|Balzan|7.64
+2024-11-20 10:56:12,239 [main] TRACE es.ciudadescolar.Programa                - 1AF8GIQZ1LF8QW0U|Musa|Yasin|1.54
+2024-11-20 10:56:12,239 [main] TRACE es.ciudadescolar.Programa                - 1QLMU6QZ7EYUNNZV|Rita|Busuttil|2.09
+2024-11-20 10:56:12,239 [main] TRACE es.ciudadescolar.Programa                - UAT0M2O42E9M4SFT|Roi|Fraguela|1.08
+2024-11-20 10:56:12,239 [main] TRACE es.ciudadescolar.Programa                - 6ZQTOKQI6K82EE9Q|Mapula|Selokela|5.27
+2024-11-20 10:56:12,239 [main] TRACE es.ciudadescolar.Programa                - E4F3HGRTKQKCT1SE|Malehumò|Ledwaba|6.52
+2024-11-20 10:56:12,239 [main] TRACE es.ciudadescolar.Programa                - CQ56N9MH3WK7H5YQ|Martiño|Arxíz|7.13
+2024-11-20 10:56:12,239 [main] TRACE es.ciudadescolar.Programa                - AJK91MKRFIHAQHHG|Napogadi|Selepe|4.95
+2024-11-20 10:56:12,239 [main] TRACE es.ciudadescolar.Programa                - 1WQO4VGBS2U7DOSL|Denis|Terzic|6.32
+2024-11-20 10:56:12,239 [main] TRACE es.ciudadescolar.Programa                - ZI21GM8B08FVLMF0|Jóhanna|Jóhannsdóttir|4.93
+2024-11-20 10:56:12,239 [main] TRACE es.ciudadescolar.Programa                - IZSO10C5ZHVYQ5O2|Seema|Thapar|1.79
+2024-11-20 10:56:12,239 [main] TRACE es.ciudadescolar.Programa                - B7SF955NFGAEBRXU|Monty|Dubey|6.69
+2024-11-20 10:56:12,240 [main] TRACE es.ciudadescolar.Programa                - 3HPSETKL9VOW2WTL|Amol|Bhatnagar|3.28
+2024-11-20 10:56:12,240 [main] TRACE es.ciudadescolar.Programa                - FVAHD0OY99X9DIRW|Dzenan|Imamovic|1.64
+2024-11-20 10:56:12,240 [main] TRACE es.ciudadescolar.Programa                - 6C7HZV4WPV9C9KS6|Naseem|Kakepoto|1.4
+2024-11-20 10:56:12,240 [main] TRACE es.ciudadescolar.Programa                - WUALBIMS4E8JS4L2|Carmen|Vella|4.55
+2024-11-20 10:56:12,240 [main] TRACE es.ciudadescolar.Programa                - KSFMV2JK2D553083|Memet|Tursun|7.56
+2024-11-20 10:56:12,240 [main] TRACE es.ciudadescolar.Programa                - 7GXC4OQYXX5JJY9F|Mariña|Quintá|8.81
+2024-11-20 10:56:12,240 [main] TRACE es.ciudadescolar.Programa                - BJRF0BWIHJ0Q12A1|Maria|Sammut|6.83
+2024-11-20 10:56:12,240 [main] TRACE es.ciudadescolar.Programa                - 5LPKMTZI7OPSJRBA|Sara|Saleem|5.31
+2024-11-20 10:56:12,240 [main] TRACE es.ciudadescolar.Programa                - 7JGX9SMLD5DE2IMG|Raheela|Ali|4.75
+2024-11-20 10:56:12,240 [main] TRACE es.ciudadescolar.Programa                - YG1ERFWBJ7TIW35D|Sobia|Khanam|4.59
+2024-11-20 10:56:12,240 [main] TRACE es.ciudadescolar.Programa                - KZJZ9SD0DIWTIBUC|Maname|Mohlare|8.95
+2024-11-20 10:56:12,240 [main] TRACE es.ciudadescolar.Programa                - KP1C2WN3DN1R3Y52|Monica|Lohana|7.95
+2024-11-20 10:56:12,240 [main] TRACE es.ciudadescolar.Programa                - 8CH586LQR7ZCP73P|Tshepè|Mobu|7.82
+2024-11-20 10:56:12,240 [main] TRACE es.ciudadescolar.Programa                - X3KWIL5KEHTMCKOM|Smiriti|Sisodiya|3.27
+2024-11-20 10:56:12,241 [main] TRACE es.ciudadescolar.Programa                - BT1Q0NUPKHDVCFLE|Sigrún|Kristjánsdóttir|6.78
+2024-11-20 10:56:12,241 [main] TRACE es.ciudadescolar.Programa                - OXQTFZHZW8SVE3SY|Rajesh|Santoshi|8.35
+2024-11-20 10:56:12,241 [main] TRACE es.ciudadescolar.Programa                - 9TS6CIE3UAIFG2IB|Sandeep|Benarjee|3.86
+2024-11-20 10:56:12,241 [main] TRACE es.ciudadescolar.Programa                - R9P3P2IAN7NY2X2Y|Basetsana|Thage|3.97
+2024-11-20 10:56:12,241 [main] TRACE es.ciudadescolar.Programa                - 1P6VZEDGK2XUU97L|Margrét|Magnúsdóttir|3.76
+2024-11-20 10:56:12,241 [main] TRACE es.ciudadescolar.Programa                - DN068KNEOAQ8LM19|Modisaotsile|Bolokwe|4.23
+2024-11-20 10:56:12,241 [main] TRACE es.ciudadescolar.Programa                - Q2HFB19RPLHIZXKH|Mxolisi|Mhlongo|7.49
+2024-11-20 10:56:12,241 [main] TRACE es.ciudadescolar.Programa                - CKJW1XVW90VWO4Y1|Anna|Jónsdóttir|5.78
+2024-11-20 10:56:12,241 [main] TRACE es.ciudadescolar.Programa                - CTM3Y3TZOLC7TPDU|Makhosi|Ngiba|1.18
+2024-11-20 10:56:12,241 [main] TRACE es.ciudadescolar.Programa                - EEZ0KS5E0RXACAIA|Lorato|Bogosi|5.48
+2024-11-20 10:56:12,241 [main] TRACE es.ciudadescolar.Programa                - 3CR7CN74GCKXWUQF|Moni|Sisodiya|4.58
+2024-11-20 10:56:12,241 [main] TRACE es.ciudadescolar.Programa                - FWT1CZQOIVRJTXRD|Darko|Basic|2.27
+2024-11-20 10:56:12,242 [main] TRACE es.ciudadescolar.Programa                - PCT0HLRPZLDSSDU1|Kedibonye|Magogwe|5.57
+2024-11-20 10:56:12,242 [main] TRACE es.ciudadescolar.Programa                - BADWLBP8CNJNBEC8|Richa|Choukse|7.8
+2024-11-20 10:56:12,242 [main] TRACE es.ciudadescolar.Programa                - 5K1K8V1OUUFKQ2UV|Nobuhle|Xaba|1.18
+2024-11-20 10:56:12,242 [main] TRACE es.ciudadescolar.Programa                - J2RAROEJGKMR72I8|Jóhannes|Jóhannsson|4.83
+2024-11-20 10:56:12,242 [main] TRACE es.ciudadescolar.Programa                - HD94EKIPA6WAL05C|Sanja|Jankovic|1.06
+2024-11-20 10:56:12,242 [main] TRACE es.ciudadescolar.Programa                - FTZM8YDJJUH1OEM7|Mogorosi|Bakwena|6.03
+2024-11-20 10:56:12,242 [main] TRACE es.ciudadescolar.Programa                - SU0W3T6TF8G3JY5M|Shilpa|Bhatia|4.43
+2024-11-20 10:56:12,242 [main] TRACE es.ciudadescolar.Programa                - U6SF3N4JXJEQSC1P|Modise|Tau|6.23
+2024-11-20 10:56:12,242 [main] TRACE es.ciudadescolar.Programa                - O95BY1KDMCEYQRFH|Dileep|Chaturvedi|4.94
+2024-11-20 10:56:12,242 [main] TRACE es.ciudadescolar.Programa                - Y57EEOVURYX1OA1P|Reena|Shrivastav|3.07
+2024-11-20 10:56:12,242 [main] TRACE es.ciudadescolar.Programa                - ESBBT644VZ64SSEN|Lejla|Selimagic|5.59
+2024-11-20 10:56:12,242 [main] TRACE es.ciudadescolar.Programa                - UVI6EKJNMC3VE3WU|Gunnar|Gunnarsson|8.7
+2024-11-20 10:56:12,243 [main] TRACE es.ciudadescolar.Programa                - 0B8IOVL2NSVJVV6T|Kgosietsile|Bogatsu|6.78
+2024-11-20 10:56:12,243 [main] TRACE es.ciudadescolar.Programa                - 4Z09CO5IJH7CEUD2|Lavanya|Mittal|1.08
+2024-11-20 10:56:12,243 [main] TRACE es.ciudadescolar.Programa                - 4GJF8C6P1Y5RFPMC|Swarnika|Soni|4.82
+2024-11-20 10:56:12,243 [main] TRACE es.ciudadescolar.Programa                - P442H9CEHIU6HAFV|Prakash|Malviya|8.21
+2024-11-20 10:56:12,243 [main] TRACE es.ciudadescolar.Programa                - J4NMMNAALGOIZY8V|Prashant|Chourey|8.59
+2024-11-20 10:56:12,243 [main] TRACE es.ciudadescolar.Programa                - 4Y497GAOTAFUJDIC|Bontle|Mokgatle|1.92
+2024-11-20 10:56:12,243 [main] TRACE es.ciudadescolar.Programa                - NJDX77JXV51CNGF5|Siyabonga|Sithole|8.22
+2024-11-20 10:56:12,243 [main] TRACE es.ciudadescolar.Programa                - ATINHMT01VNMMDCP|Akhilesh|Khare|3.68
+2024-11-20 10:56:12,243 [main] TRACE es.ciudadescolar.Programa                - 7KFJHS86WKTL6Q12|Chandrika|Gupta|5.35
+2024-11-20 10:56:12,243 [main] TRACE es.ciudadescolar.Programa                - 0CEPNRDV98KT3ORP|Bhupesh|Menon|2.69
+2024-11-20 10:56:12,243 [main] TRACE es.ciudadescolar.Programa                - XU7BX2F8M5PVZ1EF|Zamokuhle|Zulu|8.39
+2024-11-20 10:56:12,243 [main] TRACE es.ciudadescolar.Programa                - VY2A0APGVHK5NAW2|Sunil|Kapoor|8.04
+2024-11-20 10:56:12,243 [main] TRACE es.ciudadescolar.Programa                - GCJGYXSPDEFF9BTN|Meena|Dubey|2.95
+2024-11-20 10:56:12,243 [main] TRACE es.ciudadescolar.Programa                - 31VIE8WWDJWKE5YL|Ivana|Kalic|6.99
+2024-11-20 10:56:12,244 [main] TRACE es.ciudadescolar.Programa                - ODNPTWVSRBPII0BH|Ajeet|Vasav|3.6
+2024-11-20 10:56:12,244 [main] TRACE es.ciudadescolar.Programa                - 6H2IO7A62ZVUXGKZ|Samir|Simic|6.93
+2024-11-20 10:56:12,244 [main] TRACE es.ciudadescolar.Programa                - NWY9HV455M3W8QKY|Ólafur|Magnússon|2.09
+2024-11-20 10:56:12,244 [main] TRACE es.ciudadescolar.Programa                - KWH2RVHSB25MYGL9|María|Stefánsdóttir|5.21
+2024-11-20 10:56:12,244 [main] TRACE es.ciudadescolar.Programa                - 8JYVK7SM07YQOVQ3|Ana|Livic|5.93
+2024-11-20 10:56:12,244 [main] TRACE es.ciudadescolar.Programa                - 5VTSZUD0SA9JVL40|Neha|Benjaree|5.73
+2024-11-20 10:56:12,244 [main] TRACE es.ciudadescolar.Programa                - ZP5TBBYX6RI2UJ31|Kristín|Sigurðardóttir|2.8
+2024-11-20 10:56:12,244 [main] TRACE es.ciudadescolar.Programa                - MUELSFQENUOHGBZ3|Motsumi|Basiang|5.23
