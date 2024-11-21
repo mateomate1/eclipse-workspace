@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.swing.WindowConstants"/>
-    <fullyQualifiedTypeName name="java.awt.Font"/>
-    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
-    <fullyQualifiedTypeName name="javax.swing.JButton"/>
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="javax.swing.SpinnerModel"/>
     <fullyQualifiedTypeName name="javax.swing.JSpinner"/>
@@ -31,13 +27,11 @@
     <fullyQualifiedTypeName name="UD02A02_XML_DOM.TXTManager"/>
     <fullyQualifiedTypeName name="org.w3c.dom.DOMException"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
     <fullyQualifiedTypeName name="com.db4o.ObjectContainer"/>
     <fullyQualifiedTypeName name="com.db4o.Db4oEmbedded"/>
     <fullyQualifiedTypeName name="es.ciudadescolar.BBDDOOManager"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="com.db4o.ObjectSet"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="es.ciudadescolar.TXTManager"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
@@ -45,7 +39,6 @@
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
     <fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
     <fullyQualifiedTypeName name="java.io.OutputStream"/>
-    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
     <fullyQualifiedTypeName name="es.ciudadescolar.Hacker"/>
     <fullyQualifiedTypeName name="es.ciudadescolar.XMLManager"/>
     <fullyQualifiedTypeName name="es.ciudadescolar.JsonManager"/>
@@ -60,4 +53,11 @@
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="es.ciudadescolar.FileManager"/>
     <fullyQualifiedTypeName name="org.json.JSONObject"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="es.ciudadescolar.DBManager"/>
 </qualifiedTypeNameHistroy>

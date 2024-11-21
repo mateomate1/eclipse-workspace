@@ -1,0 +1,2 @@
+2024-11-21 14:02:06,639 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-11-21 14:02:07,004 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
