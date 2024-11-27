@@ -1,0 +1,10 @@
+package es.ciudadescolar;
+
+public class SQL {
+	
+	protected final String QUERY = "SELECT expediente, nombre, nota_raices FROM alumnos";
+	protected static final String QUERY2 = "SELECT expediente, nombre, nota_raices FROM alumnos WHERE expediente > 3";
+	protected static final String QUERY_NOTA_ALUMNO = "SELECT nota_raices FROM  alumnos WHERE expediente = ?";
+	protected static final String QUERY_SOBRESALIENTE_ALUMNO = "SELECT nombre FROM  alumnos WHERE sexo = ? AND nota_raices > ?";
+	
+}

@@ -1,2 +1,41 @@
 2024-11-21 14:02:06,639 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
 2024-11-21 14:02:07,004 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-11-26 11:44:52,267 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-11-26 11:44:52,647 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-11-26 11:44:52,648 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la query: [SELECT expediente, nombre, nota_raices FROM alumnos]
+2024-11-26 11:44:52,682 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query previa
+2024-11-26 11:44:52,687 [main] DEBUG es.ciudadescolar.DBManager               - Se ha cerrado la BDD
+2024-11-26 11:49:09,948 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-11-26 11:49:10,310 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-11-26 11:49:10,310 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la query: [SELECT expediente, nombre, nota_raices FROM alumnos]
+2024-11-26 11:49:10,341 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query previa
+2024-11-26 11:49:10,345 [main] DEBUG es.ciudadescolar.DBManager               - Se ha cerrado la BDD
+2024-11-26 11:49:30,572 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-11-26 11:49:30,938 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-11-26 11:49:30,939 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la query: [SELECT expediente, nombre, nota_raices FROM alumnos]
+2024-11-26 11:49:30,971 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query previa
+2024-11-26 11:49:30,974 [main] DEBUG es.ciudadescolar.DBManager               - Se ha cerrado la BDD
+2024-11-26 11:50:14,134 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-11-26 11:50:14,510 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-11-26 11:50:14,510 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la query: [SELECT expediente, nombre, nota_raices FROM alumnos]
+2024-11-26 11:50:14,540 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query previa
+2024-11-26 11:50:14,542 [main] INFO  es.ciudadescolar.Programa                - es.ciudadescolar.Alumno@950944a1
+2024-11-26 11:50:14,542 [main] INFO  es.ciudadescolar.Programa                - es.ciudadescolar.Alumno@29c875f6
+2024-11-26 11:50:14,542 [main] INFO  es.ciudadescolar.Programa                - es.ciudadescolar.Alumno@79970fd7
+2024-11-26 11:50:14,542 [main] INFO  es.ciudadescolar.Programa                - es.ciudadescolar.Alumno@44aaf7c
+2024-11-26 11:50:14,544 [main] DEBUG es.ciudadescolar.DBManager               - Se ha cerrado la BDD
+2024-11-26 11:50:31,090 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-11-26 11:50:31,450 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-11-26 11:50:31,450 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la query: [SELECT expediente, nombre, nota_raices FROM alumnos]
+2024-11-26 11:50:31,481 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query previa
+2024-11-26 11:50:31,487 [main] INFO  es.ciudadescolar.Programa                - Alumno [expediente=1, nombre=Manolo, nota=9]
+2024-11-26 11:50:31,488 [main] INFO  es.ciudadescolar.Programa                - Alumno [expediente=2, nombre=Fermin, nota=4]
+2024-11-26 11:50:31,488 [main] INFO  es.ciudadescolar.Programa                - Alumno [expediente=3, nombre=Dario, nota=0]
+2024-11-26 11:50:31,488 [main] INFO  es.ciudadescolar.Programa                - Alumno [expediente=5, nombre=Juan, nota=0]
+2024-11-26 11:50:31,490 [main] DEBUG es.ciudadescolar.DBManager               - Se ha cerrado la BDD
+2024-11-26 11:51:40,241 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-11-26 11:51:40,609 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-11-26 11:51:40,610 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la query: [SELECT expediente, nombre, nota_raices FROM alumnos WHERE expediente > 3]
+2024-11-26 11:51:40,645 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query previa
+2024-11-26 11:51:40,651 [main] INFO  es.ciudadescolar.Programa                - Alumno [expediente=5, nombre=Juan, nota=0]
+2024-11-26 11:51:40,653 [main] DEBUG es.ciudadescolar.DBManager               - Se ha cerrado la BDD

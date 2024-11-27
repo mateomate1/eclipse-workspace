@@ -122,8 +122,8 @@
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="RefactoringWizard.preview">
-		<item key="width" value="720"/>
-		<item key="height" value="500"/>
+		<item key="width" value="710"/>
+		<item key="height" value="490"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item key="updateSimilarElements" value="false"/>
@@ -176,6 +176,8 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\alumno\Downloads\ayarra_mateo_examenEj2_UD3.jar"/>
+			<item value="C:\Users\alumno\Downloads\Examen_DI_Ejercicio2_MateoAyarra.jar"/>
 			<item value="C:\Users\alumno\Desktop\JPanelImage_MateoAyarra.jar"/>
 			<item value="C:\Users\alumno\Desktop\DAM2\DI\Actividad2.9_Mateo_Ayarra.jar"/>
 			<item value="C:\Users\alumno\Desktop\DAM2\AAD\curso2425_FlujoBinario3_Servidor.jar"/>
@@ -195,8 +197,8 @@
 		<item key="RemoveFinal" value="false"/>
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="442"/>
-		<item key="DIALOG_Y_ORIGIN" value="64"/>
+		<item key="DIALOG_X_ORIGIN" value="802"/>
+		<item key="DIALOG_Y_ORIGIN" value="72"/>
 		<item key="DIALOG_WIDTH" value="526"/>
 		<item key="DIALOG_HEIGHT" value="696"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
