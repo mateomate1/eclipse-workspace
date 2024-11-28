@@ -1,5 +1,6 @@
 package es.ciudadescolar;
 
+import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -9,6 +10,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -178,6 +180,81 @@ public class DBManager {
 		}
 		
 		return nombreAlumnos;
+	}
+	
+	public void dormirSegundos(int segundos) {
+		try {
+			TimeUnit.SECONDS.sleep(segundos);
+		} catch (InterruptedException e) {
+			log.warn("Se ha interrumpido el sueño");
+		}
+	}
+	
+	public void insertarAlumno(Alumno alumno) {
+		PreparedStatement pstBajaAlumno = null;
+
+		if (conexion != null) {
+			try {
+				pstBajaAlumno = conexion.prepareStatement(SQL.INSERT_ALUMNO);
+				pstBajaAlumno.setString(1, alumno.getExpediente());
+				pstBajaAlumno.setString(2, alumno.getNombre());
+				pstBajaAlumno.setInt(3, alumno.getNota());
+
+				if (pstBajaAlumno.executeUpdate() == 1) { // al ser un insert de un registro solo comparamos con uno
+					log.debug("Se ha dado de alta el alumno " + alumno.getExpediente());
+				}
+			} catch (SQLException e) {
+				log.error("Error durante la insercion del alumno " + alumno.getExpediente());
+			}
+			if (pstBajaAlumno != null) {
+				try {
+					pstBajaAlumno.close();
+				} catch (SQLException e) {
+					log.error("Error durante el cierre del prepared statement de inserccion de alumno");
+				}
+			}
+		}
+	}
+	
+	public void cambiarNotaAlumno (String expe, int nuevaNota) {
+		PreparedStatement pstCambiaNotaAlumno = null;
+		if (conexion!=null) {
+			try {
+				
+				pstCambiaNotaAlumno = conexion.prepareStatement(SQL.UPDATE_NOTA_ALUMNO);
+				pstCambiaNotaAlumno.setInt(1, nuevaNota);
+				pstCambiaNotaAlumno.setInt(2, Integer.parseInt(expe));
+				
+				if (pstCambiaNotaAlumno.executeUpdate() == 1) { // al fer un update por PK, solo comparamos con 1.
+//					log.debug("Se ha dado de baja el alumno "+alumno.getExpediente());
+				}
+				
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+		}
+	}
+	
+	public void muestraInfoAlumno(String exp) {
+		CallableStatement csSPINFO = null;
+		try {
+			if(conexion!= null) {
+				csSPINFO = conexion.prepareCall(SQL.INVOCACION_SP_INFO_ALUMNO);
+				csSPINFO.setInt(1, Integer.parseInt(exp));
+				
+				log.debug("Antes de ejecutar el procedimiento: " +SQL.INVOCACION_SP_INFO_ALUMNO+ " con expediente ["+exp+"]");
+				csSPINFO.executeUpdate();
+				log.debug("Se ha ejecutado correctamente el procedimiento");
+			}
+		} catch (NumberFormatException e) {
+			log.error("Error durante la muestra de informacion del alumno con sxpediente ["+exp+"]");
+		} catch (SQLException e) {
+			log.error("Error durante la muestra de informacion del alumno con sxpediente ["+exp+"]");
+		} finally {
+			if (csSPINFO != null) {
+				
+			}
+		}
 	}
 	
 }
