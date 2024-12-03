@@ -228,9 +228,9 @@ public class COPY {
 		if (conexion != null) {
 			try {
 				stAlumno = conexion.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
-				log.debug("Se va a ejecutar la query: [" + SQL.QUERY1 + "]");
+				log.debug("Se va a ejecutar la query: [" + SQL.QUERY + "]");
 
-				rstAlumno = stAlumno.executeQuery(SQL.QUERY1);
+				rstAlumno = stAlumno.executeQuery(SQL.QUERY);
 				log.debug("Se ha ejecutado la query previa");
 //dormirSegundos(20);
 				if ((rstAlumno.getType() == ResultSet.TYPE_SCROLL_SENSITIVE)
@@ -360,9 +360,9 @@ public class COPY {
 		if (conexion != null) {
 			try {
 				stAlumno = conexion.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
-				log.debug("Se va a ejecutar la query: [" + SQL.QUERY1 + "]");
+				log.debug("Se va a ejecutar la query: [" + SQL.QUERY + "]");
 
-				rstAlumno = stAlumno.executeQuery(SQL.QUERY1);
+				rstAlumno = stAlumno.executeQuery(SQL.QUERY);
 				log.debug("Se ha ejecutado la query previa");
 				if ((rstAlumno.getType() == ResultSet.TYPE_SCROLL_SENSITIVE)
 						&& (rstAlumno.getConcurrency() == ResultSet.CONCUR_UPDATABLE)) {

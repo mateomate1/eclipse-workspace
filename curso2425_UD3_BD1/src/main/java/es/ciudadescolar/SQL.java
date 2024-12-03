@@ -15,4 +15,6 @@ public class SQL {
 	
 	protected static final String INVOCACION_SP_INFO_ALUMNO = "{CALL sp_getalumno (?)}";
 	
+	protected static final String INVOCACION_FUN_NOTA_ALUMNO = "{? = CALL fun_getnotaalumno(?) }";
+	
 }
