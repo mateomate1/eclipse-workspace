@@ -1,0 +1,161 @@
+2024-12-11 10:42:16,438 [main] ERROR es.ciudadescolar.DBManager               - Error durante registrando el driver: jdbc:mysql://localhost:3306/pizzas
+2024-12-11 10:43:27,104 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 10:43:27,108 [main] ERROR es.ciudadescolar.DBManager               - Error durante registrando el driver: jdbc:mysql://localhost:3306/pizzas
+2024-12-11 10:45:10,785 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 10:45:10,798 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 10:45:11,351 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 10:45:11,351 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 10:57:13,158 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 10:57:13,167 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 10:57:13,519 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 10:57:13,520 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 10:57:13,551 [main] ERROR es.ciudadescolar.DBManager               - Error durante la consulta de alumnos [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+2024-12-11 10:57:13,552 [main] ERROR es.ciudadescolar.DBManager               - Error durante el cierre del ResultSet o PrepareStatement [Cannot invoke "java.sql.ResultSet.close()" because "rstIngredientes" is null]
+2024-12-11 11:35:10,901 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 11:35:10,912 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 11:35:11,295 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 11:35:11,296 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 11:35:11,335 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 11:35:11,350 [main] ERROR es.ciudadescolar.DBManager               - Error durante la consulta de alumnos [Before start of result set]
+2024-12-11 11:37:17,547 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 11:37:17,557 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 11:37:17,915 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 11:37:17,915 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 11:37:17,951 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 11:37:17,954 [main] ERROR es.ciudadescolar.DBManager               - Error durante la consulta de alumnos [Before start of result set]
+2024-12-11 11:42:58,804 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 11:42:58,812 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 11:42:59,172 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 11:42:59,172 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 11:42:59,210 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 11:42:59,221 [main] ERROR es.ciudadescolar.DBManager               - Error durante la consulta de alumnos [Before start of result set]
+2024-12-11 11:44:04,285 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 11:44:04,295 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 11:44:04,650 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 11:44:04,650 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 11:44:04,688 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 11:44:04,688 [main] INFO  es.ciudadescolar.DBManager               - Salsa Barbacoa
+2024-12-11 11:44:04,688 [main] INFO  es.ciudadescolar.DBManager               - Mozzarella
+2024-12-11 11:44:04,688 [main] INFO  es.ciudadescolar.DBManager               - Pollo
+2024-12-11 11:44:04,689 [main] INFO  es.ciudadescolar.DBManager               - Bacon
+2024-12-11 11:44:04,689 [main] INFO  es.ciudadescolar.DBManager               - Ternera
+2024-12-11 11:45:01,562 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 11:45:01,571 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 11:45:01,924 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 11:45:01,924 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 11:45:01,961 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 11:45:01,961 [main] INFO  es.ciudadescolar.DBManager               - Salsa Barbacoa
+2024-12-11 11:45:01,961 [main] INFO  es.ciudadescolar.DBManager               - Mozzarella
+2024-12-11 11:45:01,961 [main] INFO  es.ciudadescolar.DBManager               - Pollo
+2024-12-11 11:45:01,961 [main] INFO  es.ciudadescolar.DBManager               - Bacon
+2024-12-11 11:45:01,961 [main] INFO  es.ciudadescolar.DBManager               - Ternera
+2024-12-11 11:45:09,579 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 11:45:09,588 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 11:45:09,939 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 11:45:09,939 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 11:45:09,973 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 11:45:09,974 [main] WARN  es.ciudadescolar.DBManager               - No se han encontrado ingredientes para la pizza [b]
+2024-12-11 11:45:33,518 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 11:45:33,528 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 11:45:33,884 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 11:45:33,884 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 11:45:33,919 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 11:45:33,919 [main] WARN  es.ciudadescolar.DBManager               - No se han encontrado ingredientes para la pizza con nombre 'b'
+2024-12-11 11:45:44,161 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 11:45:44,170 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 11:45:44,528 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 11:45:44,528 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 11:45:44,562 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 11:45:44,563 [main] INFO  es.ciudadescolar.DBManager               - Salsa Barbacoa
+2024-12-11 11:45:44,563 [main] INFO  es.ciudadescolar.DBManager               - Mozzarella
+2024-12-11 11:45:44,563 [main] INFO  es.ciudadescolar.DBManager               - Pollo
+2024-12-11 11:45:44,563 [main] INFO  es.ciudadescolar.DBManager               - Bacon
+2024-12-11 11:45:44,563 [main] INFO  es.ciudadescolar.DBManager               - Ternera
+2024-12-11 12:00:43,342 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 12:00:43,351 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 12:00:43,705 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 12:00:43,705 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 12:00:43,752 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 12:00:43,753 [main] INFO  es.ciudadescolar.DBManager               - Salsa Barbacoa
+2024-12-11 12:00:43,753 [main] INFO  es.ciudadescolar.DBManager               - Mozzarella
+2024-12-11 12:00:43,753 [main] INFO  es.ciudadescolar.DBManager               - Pollo
+2024-12-11 12:00:43,753 [main] INFO  es.ciudadescolar.DBManager               - Bacon
+2024-12-11 12:00:43,753 [main] INFO  es.ciudadescolar.DBManager               - Ternera
+2024-12-11 12:00:43,754 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 12:00:43,765 [main] ERROR es.ciudadescolar.DBManager               - Error durante el cierre del ResultSet o PrepareStatement [Cannot invoke "java.sql.ResultSet.close()" because "rstPrecio" is null]
+2024-12-11 12:01:26,615 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 12:01:26,624 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 12:01:26,984 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 12:01:26,984 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 12:01:27,022 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 12:01:27,023 [main] INFO  es.ciudadescolar.DBManager               - Salsa Barbacoa
+2024-12-11 12:01:27,023 [main] INFO  es.ciudadescolar.DBManager               - Mozzarella
+2024-12-11 12:01:27,023 [main] INFO  es.ciudadescolar.DBManager               - Pollo
+2024-12-11 12:01:27,023 [main] INFO  es.ciudadescolar.DBManager               - Bacon
+2024-12-11 12:01:27,023 [main] INFO  es.ciudadescolar.DBManager               - Ternera
+2024-12-11 12:01:27,023 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT getPrecioPizza(cod_pizza) AS 'precio pizza' from pizza WHERE nombre_pizza=;]
+2024-12-11 12:01:27,032 [main] ERROR es.ciudadescolar.DBManager               - Error durante el cierre del ResultSet o PrepareStatement [Cannot invoke "java.sql.ResultSet.close()" because "rstPrecio" is null]
+2024-12-11 12:02:22,471 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 12:02:22,481 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 12:02:22,838 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 12:02:22,839 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 12:02:22,874 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 12:02:22,875 [main] INFO  es.ciudadescolar.DBManager               - Salsa Barbacoa
+2024-12-11 12:02:22,875 [main] INFO  es.ciudadescolar.DBManager               - Mozzarella
+2024-12-11 12:02:22,875 [main] INFO  es.ciudadescolar.DBManager               - Pollo
+2024-12-11 12:02:22,875 [main] INFO  es.ciudadescolar.DBManager               - Bacon
+2024-12-11 12:02:22,875 [main] INFO  es.ciudadescolar.DBManager               - Ternera
+2024-12-11 12:02:22,875 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT getPrecioPizza(cod_pizza) AS 'precio pizza' from pizza WHERE nombre_pizza=;]
+2024-12-11 12:02:22,884 [main] ERROR es.ciudadescolar.DBManager               - Error durante el cierre del ResultSet o PrepareStatement [Cannot invoke "java.sql.ResultSet.close()" because "rstPrecio" is null]
+2024-12-11 12:02:45,766 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 12:02:45,776 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 12:02:46,130 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 12:02:46,131 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 12:02:46,167 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 12:02:46,168 [main] INFO  es.ciudadescolar.DBManager               - Salsa Barbacoa
+2024-12-11 12:02:46,168 [main] INFO  es.ciudadescolar.DBManager               - Mozzarella
+2024-12-11 12:02:46,168 [main] INFO  es.ciudadescolar.DBManager               - Pollo
+2024-12-11 12:02:46,168 [main] INFO  es.ciudadescolar.DBManager               - Bacon
+2024-12-11 12:02:46,168 [main] INFO  es.ciudadescolar.DBManager               - Ternera
+2024-12-11 12:02:46,169 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT getPrecioPizza(cod_pizza) AS 'precio pizza' from pizza WHERE nombre_pizza=?;]
+2024-12-11 12:02:46,170 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 12:02:46,171 [main] INFO  es.ciudadescolar.DBManager               - 8.0
+2024-12-11 12:04:12,834 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 12:04:12,842 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 12:04:13,203 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 12:04:13,203 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 12:04:13,240 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 12:04:13,240 [main] INFO  es.ciudadescolar.DBManager               - Salsa Barbacoa
+2024-12-11 12:04:13,240 [main] INFO  es.ciudadescolar.DBManager               - Mozzarella
+2024-12-11 12:04:13,240 [main] INFO  es.ciudadescolar.DBManager               - Pollo
+2024-12-11 12:04:13,240 [main] INFO  es.ciudadescolar.DBManager               - Bacon
+2024-12-11 12:04:13,240 [main] INFO  es.ciudadescolar.DBManager               - Ternera
+2024-12-11 12:04:13,240 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT getPrecioPizza(cod_pizza) AS 'precio pizza' from pizza WHERE nombre_pizza=?;]
+2024-12-11 12:04:13,242 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 12:04:13,243 [main] INFO  es.ciudadescolar.DBManager               - 8.0
+2024-12-11 12:05:34,589 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 12:05:34,598 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 12:05:34,953 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 12:05:34,953 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 12:05:34,988 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 12:05:34,988 [main] INFO  es.ciudadescolar.DBManager               - Salsa Barbacoa
+2024-12-11 12:05:34,988 [main] INFO  es.ciudadescolar.DBManager               - Mozzarella
+2024-12-11 12:05:34,988 [main] INFO  es.ciudadescolar.DBManager               - Pollo
+2024-12-11 12:05:34,988 [main] INFO  es.ciudadescolar.DBManager               - Bacon
+2024-12-11 12:05:34,989 [main] INFO  es.ciudadescolar.DBManager               - Ternera
+2024-12-11 12:05:34,989 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT getPrecioPizza(cod_pizza) AS 'precio pizza' from pizza WHERE nombre_pizza=?;]
+2024-12-11 12:05:34,990 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 12:05:34,991 [main] INFO  es.ciudadescolar.DBManager               - 8.0
+2024-12-11 12:05:55,403 [main] DEBUG es.ciudadescolar.DBManager               - Se procede a intentar conectar a la BD
+2024-12-11 12:05:55,411 [main] DEBUG es.ciudadescolar.DBManager               - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-11 12:05:55,772 [main] DEBUG es.ciudadescolar.DBManager               - Se ha creado correctamente la conexion
+2024-12-11 12:05:55,772 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT i.nombre_ingrediente FROM ingrediente as i, pizza as p, pizza_ingrediente as pi WHERE p.cod_pizza = pi.pizzaId AND pi.ingredienteId = i.cod_ingrediente AND p.nombre_pizza=?;]
+2024-12-11 12:05:55,807 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 12:05:55,808 [main] INFO  es.ciudadescolar.DBManager               - Salsa Barbacoa
+2024-12-11 12:05:55,808 [main] INFO  es.ciudadescolar.DBManager               - Mozzarella
+2024-12-11 12:05:55,808 [main] INFO  es.ciudadescolar.DBManager               - Pollo
+2024-12-11 12:05:55,808 [main] INFO  es.ciudadescolar.DBManager               - Bacon
+2024-12-11 12:05:55,808 [main] INFO  es.ciudadescolar.DBManager               - Ternera
+2024-12-11 12:05:55,808 [main] DEBUG es.ciudadescolar.DBManager               - Se va a ejecutar la busqueda de los ingredientes [SELECT getPrecioPizza(cod_pizza) AS 'precio pizza' from pizza WHERE nombre_pizza=?;]
+2024-12-11 12:05:55,810 [main] DEBUG es.ciudadescolar.DBManager               - Se ha ejecutado la query.
+2024-12-11 12:05:55,810 [main] INFO  es.ciudadescolar.DBManager               - 6.0

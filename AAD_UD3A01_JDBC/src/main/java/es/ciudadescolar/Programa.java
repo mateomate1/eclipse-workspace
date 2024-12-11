@@ -2,9 +2,12 @@ package es.ciudadescolar;
 
 public class Programa {
 
+	static String Margarita = "Margarita", Barbacoa = "Barbacoa";
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		DBManager db = new DBManager();
+		db.getIngredientes(Barbacoa);
+		db.getPrecio(Margarita);
 	}
 
 }
