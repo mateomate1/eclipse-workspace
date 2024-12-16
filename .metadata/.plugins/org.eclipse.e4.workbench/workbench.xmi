@@ -624,26 +624,26 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_EoL5i7FeEe-1j_7o_D96SA" elementId="org.eclipse.ui.editorss" selectedElement="_22p_oLh8Ee-L0JHvEv7J2g">
-      <children xsi:type="basic:PartSashContainer" xmi:id="_22p_oLh8Ee-L0JHvEv7J2g" selectedElement="_kQp0cbMDEe-ycrUr_8WRWw" horizontal="true">
+      <children xsi:type="basic:PartSashContainer" xmi:id="_22p_oLh8Ee-L0JHvEv7J2g" selectedElement="_22p_obh8Ee-L0JHvEv7J2g" horizontal="true">
         <children xsi:type="basic:PartStack" xmi:id="_kQp0cbMDEe-ycrUr_8WRWw" elementId="PartStack@1ae42ea1" containerData="5000" selectedElement="_OYyCoLh8Ee-L0JHvEv7J2g">
           <tags>EditorStack</tags>
-          <tags>active</tags>
           <children xsi:type="basic:Part" xmi:id="_OYyCoLh8Ee-L0JHvEv7J2g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="DBManager.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DBManager.java&quot; partName=&quot;DBManager.java&quot; title=&quot;DBManager.java&quot; tooltip=&quot;AAD_UD03P01/src/main/java/es/ciudadescolar/DBManager.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AAD_UD03P01/src/main/java/es/ciudadescolar/DBManager.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1416&quot; selectionTopPixel=&quot;190&quot;/>&#xD;&#xA;&lt;/editor>"/>
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DBManager.java&quot; partName=&quot;DBManager.java&quot; title=&quot;DBManager.java&quot; tooltip=&quot;AAD_UD03P01/src/main/java/es/ciudadescolar/DBManager.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AAD_UD03P01/src/main/java/es/ciudadescolar/DBManager.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1416&quot; selectionTopPixel=&quot;70&quot;/>&#xD;&#xA;&lt;/editor>"/>
+            <tags>Editor</tags>
+            <tags>removeOnHide</tags>
+            <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          </children>
+        </children>
+        <children xsi:type="basic:PartStack" xmi:id="_22p_obh8Ee-L0JHvEv7J2g" elementId="PartStack@37aafdc6" containerData="5000" selectedElement="_KVKmwLh9Ee-L0JHvEv7J2g">
+          <tags>EditorStack</tags>
+          <tags>active</tags>
+          <children xsi:type="basic:Part" xmi:id="_KVKmwLh9Ee-L0JHvEv7J2g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="DBManager.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DBManager.java&quot; partName=&quot;DBManager.java&quot; title=&quot;DBManager.java&quot; tooltip=&quot;curso2425_UD3_BD1/src/main/java/es/ciudadescolar/DBManager.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/curso2425_UD3_BD1/src/main/java/es/ciudadescolar/DBManager.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;181&quot; selectionOffset=&quot;5412&quot; selectionTopPixel=&quot;2700&quot;/>&#xD;&#xA;&lt;/editor>"/>
             <tags>Editor</tags>
             <tags>removeOnHide</tags>
             <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
             <tags>active</tags>
             <tags>activeOnClose</tags>
-          </children>
-        </children>
-        <children xsi:type="basic:PartStack" xmi:id="_22p_obh8Ee-L0JHvEv7J2g" elementId="PartStack@37aafdc6" containerData="5000" selectedElement="_KVKmwLh9Ee-L0JHvEv7J2g">
-          <tags>EditorStack</tags>
-          <children xsi:type="basic:Part" xmi:id="_KVKmwLh9Ee-L0JHvEv7J2g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="DBManager.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DBManager.java&quot; partName=&quot;DBManager.java&quot; title=&quot;DBManager.java&quot; tooltip=&quot;curso2425_UD3_BD1/src/main/java/es/ciudadescolar/DBManager.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/curso2425_UD3_BD1/src/main/java/es/ciudadescolar/DBManager.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;5954&quot; selectionTopPixel=&quot;2790&quot;/>&#xD;&#xA;&lt;/editor>"/>
-            <tags>Editor</tags>
-            <tags>removeOnHide</tags>
-            <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           </children>
         </children>
       </children>
@@ -989,7 +989,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EoL6orFeEe-1j_7o_D96SA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Ol_0sLh7Ee-L0JHvEv7J2g" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_EoNu9LFeEe-1j_7o_D96SA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_oTHIULuKEe-oE5F1hEvxBw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_EoNu9LFeEe-1j_7o_D96SA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EoL6sLFeEe-1j_7o_D96SA" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -997,8 +997,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EoL6srFeEe-1j_7o_D96SA" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_OmBC0Lh7Ee-L0JHvEv7J2g" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" command="_EoNJ1rFeEe-1j_7o_D96SA"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_OmBC0bh7Ee-L0JHvEv7J2g" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_EoNtgbFeEe-1j_7o_D96SA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_oTHvYbuKEe-oE5F1hEvxBw" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_EoNJ1rFeEe-1j_7o_D96SA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_oTIWcLuKEe-oE5F1hEvxBw" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_EoNtgbFeEe-1j_7o_D96SA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EoL6trFeEe-1j_7o_D96SA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1055,7 +1055,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EoL7ELFeEe-1j_7o_D96SA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_OmBp4rh7Ee-L0JHvEv7J2g" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_EoNul7FeEe-1j_7o_D96SA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_oTI9gLuKEe-oE5F1hEvxBw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_EoNul7FeEe-1j_7o_D96SA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EoL7HLFeEe-1j_7o_D96SA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
