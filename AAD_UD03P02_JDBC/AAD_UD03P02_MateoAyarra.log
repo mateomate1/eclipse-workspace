@@ -1,0 +1,79 @@
+2024-12-17 11:11:36,431 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 11:11:36,967 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 11:12:59,058 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 11:12:59,429 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 11:12:59,435 [main] DEBUG es.aad.DbManager                         - Se procede a iniciar rollback de la transaccion
+2024-12-17 11:12:59,435 [main] DEBUG es.aad.DbManager                         - Rollback realizado con exito
+2024-12-17 11:13:40,233 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 11:13:40,601 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 11:13:40,606 [main] DEBUG es.aad.DbManager                         - Se procede a iniciar rollback de la transaccion
+2024-12-17 11:13:40,606 [main] DEBUG es.aad.DbManager                         - Rollback realizado con exito
+2024-12-17 11:14:23,432 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 11:14:23,795 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 11:14:23,800 [main] DEBUG es.aad.DbManager                         - Se ha completado satisfactoriamente la transaccion
+2024-12-17 11:15:14,444 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 11:15:14,812 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 11:15:14,818 [main] DEBUG es.aad.DbManager                         - Se ha completado satisfactoriamente la transaccion
+2024-12-17 11:15:33,086 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 11:15:33,467 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 11:15:33,473 [main] DEBUG es.aad.DbManager                         - Hola
+2024-12-17 11:15:33,474 [main] DEBUG es.aad.DbManager                         - Se ha completado satisfactoriamente la transaccion
+2024-12-17 11:15:52,944 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 11:15:53,307 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 11:15:53,313 [main] DEBUG es.aad.DbManager                         - Se ha completado satisfactoriamente la transaccion
+2024-12-17 11:17:49,536 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 11:17:49,896 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 11:17:49,901 [main] DEBUG es.aad.DbManager                         - Se ha completado satisfactoriamente la transaccion
+2024-12-17 11:18:28,994 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 11:18:29,364 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 11:18:29,370 [main] DEBUG es.aad.DbManager                         - Iniciando transaccion de las personas
+2024-12-17 11:18:29,370 [main] DEBUG es.aad.DbManager                         - Se ha completado satisfactoriamente la transaccion
+2024-12-17 11:18:46,013 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 11:18:46,381 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 11:18:46,386 [main] DEBUG es.aad.DbManager                         - Iniciando transaccion de las personas
+2024-12-17 11:18:46,387 [main] DEBUG es.aad.DbManager                         - Se ha completado satisfactoriamente la transaccion
+2024-12-17 11:39:13,585 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 11:39:13,971 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 11:39:13,976 [main] DEBUG es.aad.DbManager                         - Iniciando transaccion de las personas
+2024-12-17 11:39:13,977 [main] DEBUG es.aad.DbManager                         - Se ha completado satisfactoriamente la transaccion
+2024-12-17 11:39:35,030 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 11:39:35,405 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 11:40:17,144 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 11:40:17,501 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 11:40:31,521 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 11:40:31,895 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 11:40:43,668 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 11:40:44,047 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 11:43:37,291 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 11:43:37,655 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 11:43:37,678 [main] DEBUG es.aad.DbManager                         - Se ha dado de alta la persona con nombre [Pedro], email [pedro@gmail.com] y nacido el dia [2001-01-20]
+2024-12-17 12:05:45,444 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 12:05:45,809 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 12:05:45,848 [main] ERROR es.aad.DbManager                         - Error durante la insercion de la persona
+2024-12-17 12:05:45,900 [main] DEBUG es.aad.DbManager                         - Se procede a ejecuitar la funcion
+2024-12-17 12:05:45,907 [main] DEBUG es.aad.DbManager                         - Se ha ejecutado correctamente la funcion
+2024-12-17 12:05:45,907 [main] INFO  es.aad.DbManager                         - La persona con email carlos.garcia@example.com a recibido el regalo Reloj Deportivo
+2024-12-17 12:07:33,586 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 12:07:33,953 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 12:07:33,971 [main] DEBUG es.aad.DbManager                         - Se ha dado de alta la persona con nombre [Pedro], email [pedro@gmail.com] y nacido el dia [2001-01-20]
+2024-12-17 12:07:34,017 [main] DEBUG es.aad.DbManager                         - Se procede a ejecuitar la funcion
+2024-12-17 12:07:34,020 [main] DEBUG es.aad.DbManager                         - Se ha ejecutado correctamente la funcion
+2024-12-17 12:07:34,021 [main] WARN  es.aad.DbManager                         - No se encontraron regalos asociados al email
+2024-12-17 12:07:44,466 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 12:07:44,829 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 12:07:44,870 [main] ERROR es.aad.DbManager                         - Error durante la insercion de la persona
+2024-12-17 12:07:44,913 [main] DEBUG es.aad.DbManager                         - Se procede a ejecuitar la funcion
+2024-12-17 12:07:44,916 [main] DEBUG es.aad.DbManager                         - Se ha ejecutado correctamente la funcion
+2024-12-17 12:07:44,917 [main] WARN  es.aad.DbManager                         - No se encontraron regalos asociados al email
+2024-12-17 12:07:53,288 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 12:07:53,654 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 12:07:53,693 [main] ERROR es.aad.DbManager                         - Error durante la insercion de la persona
+2024-12-17 12:07:53,737 [main] DEBUG es.aad.DbManager                         - Se procede a ejecuitar la funcion
+2024-12-17 12:07:53,740 [main] DEBUG es.aad.DbManager                         - Se ha ejecutado correctamente la funcion
+2024-12-17 12:07:53,741 [main] WARN  es.aad.DbManager                         - No se encontraron regalos asociados al email
+2024-12-17 12:10:26,884 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 12:10:27,240 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 12:10:27,260 [main] DEBUG es.aad.DbManager                         - Se ha dado de alta la persona con nombre [Pedro], email [pedro@gmail.com] y nacido el dia [2001-01-20]
+2024-12-17 12:10:27,303 [main] DEBUG es.aad.DbManager                         - Se procede a ejecuitar la funcion
+2024-12-17 12:10:27,309 [main] DEBUG es.aad.DbManager                         - Se ha ejecutado correctamente la funcion
+2024-12-17 12:10:27,310 [main] INFO  es.aad.DbManager                         - La persona con email carlos.garcia@example.com a recibido el regalo Reloj Deportivo
