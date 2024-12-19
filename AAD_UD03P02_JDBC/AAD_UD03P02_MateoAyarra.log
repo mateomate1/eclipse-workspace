@@ -77,3 +77,9 @@
 2024-12-17 12:10:27,303 [main] DEBUG es.aad.DbManager                         - Se procede a ejecuitar la funcion
 2024-12-17 12:10:27,309 [main] DEBUG es.aad.DbManager                         - Se ha ejecutado correctamente la funcion
 2024-12-17 12:10:27,310 [main] INFO  es.aad.DbManager                         - La persona con email carlos.garcia@example.com a recibido el regalo Reloj Deportivo
+2024-12-17 18:44:25,105 [main] DEBUG es.aad.DbManager                         - Se ha registrado correctamente el driver: com.mysql.cj.jdbc.Driver
+2024-12-17 18:44:25,626 [main] DEBUG es.aad.DbManager                         - Se ha creado correctamente la conexion
+2024-12-17 18:44:25,694 [main] DEBUG es.aad.DbManager                         - Se ha dado de alta la persona con nombre [Pedro], email [pedro@gmail.com] y nacido el dia [2001-01-20]
+2024-12-17 18:44:25,755 [main] DEBUG es.aad.DbManager                         - Se procede a ejecuitar la funcion
+2024-12-17 18:44:25,760 [main] DEBUG es.aad.DbManager                         - Se ha ejecutado correctamente la funcion
+2024-12-17 18:44:25,760 [main] INFO  es.aad.DbManager                         - La persona con email carlos.garcia@example.com a recibido el regalo Reloj Deportivo
