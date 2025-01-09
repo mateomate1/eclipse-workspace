@@ -26,7 +26,6 @@
     <fullyQualifiedTypeName name="javax.swing.JTextField"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="com.program.Usuario"/>
-    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="com.program.ListadoUsuarios"/>
     <fullyQualifiedTypeName name="com.program.GestorBin"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 </qualifiedTypeNameHistroy>
