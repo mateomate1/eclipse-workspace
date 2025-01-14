@@ -42,8 +42,13 @@ public class Programa {
 			em.persist(cliente1);
 			// a partir de aqui cliente1 esta administrado
 
-			cliente1.setEmail("carlos67@miempresa.es");
-
+			cliente1.setEmail("martin6@miempresa.es");
+			//este cambio se propaga por la BD
+			
+			//si por lo que sea, queremos descartar los datos realizados por el objeto
+			//y recargar los datos de la BD...
+			em.refresh(cliente1);
+			
 			transaccion.commit();
 			LOG.info("Se ha guardado correctamente el objeto cliente: " + cliente1.toString());
 
