@@ -1,16 +1,30 @@
-package one2one_uni;
+package ine2one_uni;
 
 import java.io.Serializable;
 import java.util.Objects;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table (name = "direcciones", schema = "peliculas_orm_2425")
 public class Direccion implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "cod_dir")
 	private int codigo_direccion;
 	
+	@Column(name = "calle")
 	private String calle;
-	
+
+	@Column(name = "numero")
 	private int num;
 	
 	public Direccion() {
@@ -83,7 +97,7 @@ public class Direccion implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Direccion [codigo_direccion=" + codigo_direccion + ", calle=" + calle + ", num=" + num + "]";
+		return "Direccion2 [codigo_direccion=" + codigo_direccion + ", calle=" + calle + ", num=" + num + "]";
 	}
 	
 	

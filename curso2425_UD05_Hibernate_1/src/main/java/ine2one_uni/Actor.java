@@ -1,13 +1,36 @@
-package one2one_uni;
+package ine2one_uni;
 
 import java.io.Serializable;
 import java.util.Objects;
 
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToOne;
+import jakarta.persistence.Table;
+
+@Entity
+@Table (name = "actores", schema = "peliculas_orm_2425")
 public class Actor implements Serializable {
+	
 	private static final long serialVersionUID = 1L;
 	
+	//Atributos de la clase:
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "cod_act")
 	private int codigo_actor;
+	
+	@Column(name = "nombre")
 	private String nombre;
+	@OneToOne (cascade = CascadeType.PERSIST)
+	//@OneToOne(cascade = {CascadeType.PERSIST, CascadeType.REMOVE})
+	@JoinColumn(name = "cod_direccion") // Esta etiqueta nos sirve tmb para identificar esta entidad como OWNER/PADRE/MASTER
 	private Direccion direc;
 	
 	public Actor() {
@@ -72,7 +95,7 @@ public class Actor implements Serializable {
 	}
 	@Override
 	public String toString() {
-		return "Actor [codigo_actor=" + codigo_actor + ", nombre=" + nombre + ", direc=" + direc + "]";
+		return "Actor2 [codigo_actor=" + codigo_actor + ", nombre=" + nombre + ", direc=" + direc + "]";
 	}
 	
 	
