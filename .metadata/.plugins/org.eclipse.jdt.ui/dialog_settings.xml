@@ -123,8 +123,8 @@
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="RefactoringWizard.preview">
-		<item key="width" value="710"/>
-		<item key="height" value="490"/>
+		<item key="width" value="690"/>
+		<item key="height" value="470"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item key="updateSimilarElements" value="false"/>
@@ -145,7 +145,7 @@
 		<item key="SynchronizedModifier" value="false"/>
 		<item key="Comments" value="true"/>
 		<item key="VisibilityModifier" value="1"/>
-		<item key="InsertPosition.v2" value="1"/>
+		<item key="InsertPosition.v2" value="2"/>
 		<item key="InstanceOf" value="false"/>
 		<item key="Blocks" value="false"/>
 		<item key="Objects.equals &amp; Objects.hash" value="true"/>

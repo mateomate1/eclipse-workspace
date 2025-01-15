@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="com.mysql.cj.protocol.a.SqlDateValueEncoder"/>
     <fullyQualifiedTypeName name="es.ciudadescolar.SQL"/>
     <fullyQualifiedTypeName name="com.program.Alta"/>
@@ -47,7 +46,6 @@
     <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
     <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.OneToOne"/>
     <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
     <fullyQualifiedTypeName name="org.slf4j.Logger"/>
@@ -57,7 +55,9 @@
     <fullyQualifiedTypeName name="jakarta.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="jakarta.persistence.EntityTransaction"/>
     <fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
-    <fullyQualifiedTypeName name="one2one_uni.Direccion"/>
-    <fullyQualifiedTypeName name="one2one_uni.Actor"/>
     <fullyQualifiedTypeName name="jakarta.persistence.PersistenceException"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="one2one_uni.Actor"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.OneToOne"/>
+    <fullyQualifiedTypeName name="one2one_uni.Direccion"/>
 </qualifiedTypeNameHistroy>
