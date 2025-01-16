@@ -1,4 +1,4 @@
-package ine2one_uni;
+package one2one_bidir_jpa;
 
 import java.io.Serializable;
 import java.util.Objects;
@@ -13,7 +13,7 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
-@Entity
+@Entity(name = "one2one_bidir_jpa.Actor")
 @Table (name = "actores", schema = "peliculas_orm_2425")
 public class Actor implements Serializable {
 	
@@ -28,6 +28,7 @@ public class Actor implements Serializable {
 	
 	@Column(name = "nombre")
 	private String nombre;
+	
 	@OneToOne (cascade = CascadeType.PERSIST)
 	//@OneToOne(cascade = {CascadeType.PERSIST, CascadeType.REMOVE})
 	@JoinColumn(name = "cod_direccion") // Esta etiqueta nos sirve tmb para identificar esta entidad como OWNER/PADRE/MASTER
@@ -95,7 +96,7 @@ public class Actor implements Serializable {
 	}
 	@Override
 	public String toString() {
-		return "Actor2 [codigo_actor=" + codigo_actor + ", nombre=" + nombre + ", direc=" + direc + "]";
+		return "Actor [codigo_actor=" + codigo_actor + ", nombre=" + nombre + ", direc=" + direc.getCalle() + "]";
 	}
 	
 	

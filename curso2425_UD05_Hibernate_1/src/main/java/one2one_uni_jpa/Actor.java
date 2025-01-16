@@ -1,4 +1,4 @@
-package one2one_bidir;
+package one2one_uni_jpa;
 
 import java.io.Serializable;
 import java.util.Objects;
@@ -15,7 +15,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table (name = "actores", schema = "peliculas_orm_2425")
-public class Actor2 implements Serializable {
+public class Actor implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	
@@ -31,13 +31,13 @@ public class Actor2 implements Serializable {
 	@OneToOne (cascade = CascadeType.PERSIST)
 	//@OneToOne(cascade = {CascadeType.PERSIST, CascadeType.REMOVE})
 	@JoinColumn(name = "cod_direccion") // Esta etiqueta nos sirve tmb para identificar esta entidad como OWNER/PADRE/MASTER
-	private Direccion2 direc;
+	private Direccion direc;
 	
-	public Actor2() {
+	public Actor() {
 		
 	}
 	
-	public Actor2(String nombre, Direccion2 direc) {
+	public Actor(String nombre, Direccion direc) {
 		this.nombre = nombre;
 		this.direc = direc;
 	}
@@ -57,7 +57,7 @@ public class Actor2 implements Serializable {
 	/**
 	 * @return the direc
 	 */
-	public Direccion2 getDirec() {
+	public Direccion getDirec() {
 		return direc;
 	}
 	/**
@@ -75,7 +75,7 @@ public class Actor2 implements Serializable {
 	/**
 	 * @param direc the direc to set
 	 */
-	public void setDirec(Direccion2 direc) {
+	public void setDirec(Direccion direc) {
 		this.direc = direc;
 	}
 	@Override
@@ -90,12 +90,12 @@ public class Actor2 implements Serializable {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Actor2 other = (Actor2) obj;
+		Actor other = (Actor) obj;
 		return codigo_actor == other.codigo_actor;
 	}
 	@Override
 	public String toString() {
-		return "Actor2 [codigo_actor=" + codigo_actor + ", nombre=" + nombre + ", direc=" + direc.getCalle() + "]";
+		return "Actor [codigo_actor=" + codigo_actor + ", nombre=" + nombre + ", direc=" + direc + "]";
 	}
 	
 	

@@ -1,4 +1,4 @@
-package one2one_bidir;
+package one2one_uni_jpa;
 
 import java.io.Serializable;
 import java.util.Objects;
@@ -8,12 +8,11 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
 @Entity
 @Table (name = "direcciones", schema = "peliculas_orm_2425")
-public class Direccion2 implements Serializable {
+public class Direccion implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	
@@ -28,15 +27,11 @@ public class Direccion2 implements Serializable {
 	@Column(name = "numero")
 	private int num;
 	
-	//Anadir el atributo mapedby para indicar que esta entidad no es el owner, e indicamos el nombre del atributo de la clase OWNER (Actor2) que se corresponde con la clase FK
-	@OneToOne(mappedBy = "direc")
-	private Actor2 actor;
-	
-	public Direccion2() {
+	public Direccion() {
 		
 	}
 	
-	public Direccion2(String calle, int num) {
+	public Direccion(String calle, int num) {
 		this.calle = calle;
 		this.num = num;
 	}
@@ -61,13 +56,6 @@ public class Direccion2 implements Serializable {
 	public int getNum() {
 		return num;
 	}
-	
-	/**
-	 * @return the actor
-	 */
-	public Actor2 getActor() {
-		return actor;
-	}
 
 	/**
 	 * @param codigo_direccion the codigo_direccion to set
@@ -90,13 +78,6 @@ public class Direccion2 implements Serializable {
 		this.num = num;
 	}
 
-	/**
-	 * @param actor the actor to set
-	 */
-	public void setActor(Actor2 actor) {
-		this.actor = actor;
-	}
-
 	@Override
 	public int hashCode() {
 		return Objects.hash(codigo_direccion);
@@ -110,13 +91,13 @@ public class Direccion2 implements Serializable {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Direccion2 other = (Direccion2) obj;
+		Direccion other = (Direccion) obj;
 		return codigo_direccion == other.codigo_direccion;
 	}
 
 	@Override
 	public String toString() {
-		return "Direccion2 [codigo_direccion=" + codigo_direccion + ", calle=" + calle + ", num=" + num + actor!=null?(", actor=" + actor.getCodigo_actor()):"" + "]";
+		return "Direccion [codigo_direccion=" + codigo_direccion + ", calle=" + calle + ", num=" + num + "]";
 	}
 	
 	
