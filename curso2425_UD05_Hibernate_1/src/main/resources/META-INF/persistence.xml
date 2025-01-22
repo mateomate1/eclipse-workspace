@@ -9,6 +9,9 @@
 		<class>one2one_uni_jpa.Actor</class>
 		<class>one2one_uni_jpa.Direccion</class>
 		<class>one2many_bidir_jpa.Pelicula</class>
+		<class>one2many_bidir_jpa.Director</class>
+		<class>one2many_uni_jpa.Pelicula</class>
+		<class>one2many_uni_jpa.Director</class>
 
 		<properties>
 			<property name="hibernate.connection.autocommit"

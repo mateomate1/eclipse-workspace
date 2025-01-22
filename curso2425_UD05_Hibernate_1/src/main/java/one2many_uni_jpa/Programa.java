@@ -1,4 +1,4 @@
-package one2many_bidir_jpa;
+package one2many_uni_jpa;
 
 import java.time.LocalDate;
 import java.util.Iterator;
@@ -19,16 +19,12 @@ public class Programa {
 	
 	public static void main(String[] args) {
 		Director director = new Director();
-		director.setCodigo_director(18);
+		director.setCodigo_director(10);
 		director.setNombre_director("Stevan Seagal");
 		
 		Pelicula peli1 = new Pelicula("Duro de matar I", LocalDate.of(1995, 5, 23));
 		Pelicula peli2 = new Pelicula("Duro de matar II", LocalDate.of(1996, 5, 23));
 		Pelicula peli3 = new Pelicula("Duro de matar III", LocalDate.of(1997, 5, 23));
-		
-		director.addPelicula(peli1);
-		director.addPelicula(peli2);
-		director.addPelicula(peli3);
 		
 		EntityManager manager = null;
 		EntityTransaction transaction = null;
@@ -53,7 +49,7 @@ public class Programa {
 			manager = factoria.createEntityManager();
 			
 			//Con esto verificamos el comportamiento del fetch: recuperamos las peliculas de primeras o solo al acceder a ellas
-			Director dirBuscado = manager.find(Director.class, 18);
+			Director dirBuscado = manager.find(Director.class, 10);
 			
 			if(dirBuscado != null) {
 				log.info("Director encontrado: {}", dirBuscado.getNombre_director());
@@ -76,8 +72,6 @@ public class Programa {
 			Pelicula peliBuscada = manager.find(Pelicula.class, 6);
 			if(peliBuscada != null) {
 				log.info("Pelicula encontrada: {}", peliBuscada);
-				if(peliBuscada.getDir_pelicula() != null)
-				log.info("Director: {}",peliBuscada.getDir_pelicula());
 			}
 			
 			manager.close();

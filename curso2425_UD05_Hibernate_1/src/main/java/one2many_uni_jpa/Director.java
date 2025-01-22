@@ -1,4 +1,4 @@
-package one2many_bidir_jpa;
+package one2many_uni_jpa;
 
 import java.io.Serializable;
 import java.util.HashSet;
@@ -10,10 +10,11 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
-@Entity(name = "one2many_bidir_jpa.Director")
+@Entity(name = "one2many_uni_jpa.Director")
 @Table(name = "directores", schema = "peliculas_orm_2425")
 public class Director implements Serializable{
 	private static final long serialVersionUID = 1L;
@@ -25,7 +26,8 @@ public class Director implements Serializable{
 	@Column(name = "nombre")
 	private String nombre_director;
 	
-	@OneToMany(mappedBy = "dir_pelicula", cascade = {CascadeType.PERSIST, CascadeType.REMOVE}, fetch = FetchType.EAGER)
+	@OneToMany(cascade = {CascadeType.PERSIST, CascadeType.REMOVE}, fetch = FetchType.EAGER)
+	@JoinColumn(name = "cod_dire")
 	private Set<Pelicula> pelis_director;
 	
 	public Director() {
@@ -95,15 +97,5 @@ public class Director implements Serializable{
 	public String toString() {
 		return "Director [codigo_director=" + codigo_director + ", nombre_director=" + nombre_director
 				+ ", pelis_director=" + pelis_director + "]";
-	}
-	
-	public boolean addPelicula(Pelicula peli) {
-		peli.setDir_pelicula(this);
-		return pelis_director.add(peli);
-	}
-	
-	public boolean removePelicula(Pelicula peli) {
-		peli.setDir_pelicula(null);
-		return pelis_director.remove(peli);
 	}
 }

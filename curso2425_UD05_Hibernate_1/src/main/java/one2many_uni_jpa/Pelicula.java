@@ -1,4 +1,4 @@
-package one2many_bidir_jpa;
+package one2many_uni_jpa;
 
 import java.io.Serializable;
 import java.time.LocalDate;
@@ -9,11 +9,9 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
-@Entity(name = "one2many_bidir_jpa.Pelicula")
+@Entity(name = "one2many_uni_jpa.Pelicula")
 @Table(name = "peliculas", schema = "peliculas_orm_2425")
 public class Pelicula implements Serializable{
 	private static final long serialVersionUID = 1L;
@@ -28,10 +26,6 @@ public class Pelicula implements Serializable{
 	
 	@Column(name = "fecha_grabacion")
 	private LocalDate fecha_grab;
-	
-	@ManyToOne
-	@JoinColumn(name = "cod_dire")//Obligatoriamente pondremos la JoinColumn en el Many si es bidireccional
-	private Director dir_pelicula;
 
 	public Pelicula() {}
 	
@@ -82,20 +76,6 @@ public class Pelicula implements Serializable{
 		this.fecha_grab = fecha_grab;
 	}
 
-	/**
-	 * @return the dir_pelicula
-	 */
-	public Director getDir_pelicula() {
-		return dir_pelicula;
-	}
-
-	/**
-	 * @param dir_pelicula the dir_pelicula to set
-	 */
-	public void setDir_pelicula(Director dir_pelicula) {
-		this.dir_pelicula = dir_pelicula;
-	}
-
 	/*
 	Consideramos los 4 atributos porque el codigo no lo informamos explicitamente y 
 	por tanto si tengo varias peliculas para un director todas ellas tienen codigo 
@@ -105,7 +85,7 @@ public class Pelicula implements Serializable{
 	*/
 	@Override
 	public int hashCode() {
-		return Objects.hash(codigo_pelicula, dir_pelicula, fecha_grab, titulo_pelicula);
+		return Objects.hash(codigo_pelicula, fecha_grab, titulo_pelicula);
 	}
 
 	@Override
@@ -117,16 +97,14 @@ public class Pelicula implements Serializable{
 		if (getClass() != obj.getClass())
 			return false;
 		Pelicula other = (Pelicula) obj;
-		return codigo_pelicula == other.codigo_pelicula && Objects.equals(dir_pelicula, other.dir_pelicula)
-				&& Objects.equals(fecha_grab, other.fecha_grab)
-				&& Objects.equals(titulo_pelicula, other.titulo_pelicula);
+		return codigo_pelicula == other.codigo_pelicula && 
+				Objects.equals(fecha_grab, other.fecha_grab) && 
+				Objects.equals(titulo_pelicula, other.titulo_pelicula);
 	}
 
 	@Override
 	public String toString() {
 		String director = "No hay director asignado";
-		if(dir_pelicula!=null)
-			director = dir_pelicula.getNombre_director();
 		
 		return "Pelicula [codigo_pelicula=" + codigo_pelicula + ", titulo_pelicula=" + titulo_pelicula + ", fecha_grab="
 				+ fecha_grab + ", dir_pelicula=" + director + "]";
