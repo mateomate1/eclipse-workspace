@@ -12,6 +12,9 @@
 		<class>one2many_bidir_jpa.Director</class>
 		<class>one2many_uni_jpa.Pelicula</class>
 		<class>one2many_uni_jpa.Director</class>
+		<class>many2many_bidir_basic_jpa.Direccion</class>
+		<class>many2many_bidir_basic_jpa.Actor</class>
+		<class>many2many_bidir_basic_jpa.Pelicula</class>
 
 		<properties>
 			<property name="hibernate.connection.autocommit"

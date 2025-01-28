@@ -103,7 +103,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>one2many_bidir_jpa.Pelicula</mainClass>
+							<mainClass>many2many_bidir_basic_jpa.Programa</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
