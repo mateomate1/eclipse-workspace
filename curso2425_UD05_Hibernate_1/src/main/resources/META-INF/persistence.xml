@@ -4,17 +4,30 @@
 	xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
 	version="3.0">
 	<persistence-unit name="PersistenciaPeliculas">
+		<!-- One -->
 		<class>one2one_bidir_jpa.Actor</class>
 		<class>one2one_bidir_jpa.Direccion</class>
+		
 		<class>one2one_uni_jpa.Actor</class>
 		<class>one2one_uni_jpa.Direccion</class>
+		
 		<class>one2many_bidir_jpa.Pelicula</class>
 		<class>one2many_bidir_jpa.Director</class>
+		
 		<class>one2many_uni_jpa.Pelicula</class>
 		<class>one2many_uni_jpa.Director</class>
+		
 		<class>many2many_bidir_basic_jpa.Direccion</class>
 		<class>many2many_bidir_basic_jpa.Actor</class>
 		<class>many2many_bidir_basic_jpa.Pelicula</class>
+		
+		<class>many2many_bidir_avanz_jpa.Protagonista</class>
+		<class>many2many_bidir_avanz_jpa.Direccion</class>
+		<class>many2many_bidir_avanz_jpa.Pelicula</class>
+		<class>many2many_bidir_avanz_jpa.Actor</class>
+		
+		<class>hql_jpa.Actor</class>
+		<class>hql_jpa.Direccion</class>
 
 		<properties>
 			<property name="hibernate.connection.autocommit"

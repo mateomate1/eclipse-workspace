@@ -1,19 +1,17 @@
-package many2many_bidir_avanz_jpa;
+package hql_jpa;
 
 import java.io.Serializable;
 import java.util.Objects;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
-@Entity(name = "many2many_bidir_avanz_jpa.Direccion")
-@Table(name = "direcciones", schema = "peliculas_orm_2425")
+@Entity(name = "hql_jpa.Direccion")
+@Table (name = "direcciones", schema = "peliculas_orm_2425")
 public class Direccion implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
@@ -28,11 +26,6 @@ public class Direccion implements Serializable {
 
 	@Column(name = "numero")
 	private int num;
-	
-	//Anadir el atributo mapedby para indicar que esta entidad no es el owner, e indicamos el nombre del atributo de la clase OWNER (Actor) que se corresponde con la clase FK
-	//Por defecto el fetch es eager, es decir recupero los actores de las drecciones sin saber si a futuro vamos a usarlo.
-	@OneToOne(mappedBy = "direc",fetch = FetchType.LAZY)
-	private Actor actor;
 	
 	public Direccion() {
 		
@@ -63,13 +56,6 @@ public class Direccion implements Serializable {
 	public int getNum() {
 		return num;
 	}
-	
-	/**
-	 * @return the actor
-	 */
-	public Actor getActor() {
-		return actor;
-	}
 
 	/**
 	 * @param codigo_direccion the codigo_direccion to set
@@ -92,16 +78,11 @@ public class Direccion implements Serializable {
 		this.num = num;
 	}
 
-	/**
-	 * @param actor the actor to set
-	 */
-	public void setActor(Actor actor) {
-		this.actor = actor;
-	}
 	@Override
 	public int hashCode() {
-		return Objects.hash(calle, codigo_direccion, num);
+		return Objects.hash(codigo_direccion);
 	}
+
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -111,14 +92,12 @@ public class Direccion implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		Direccion other = (Direccion) obj;
-		return Objects.equals(calle, other.calle) && codigo_direccion == other.codigo_direccion && num == other.num;
+		return codigo_direccion == other.codigo_direccion;
 	}
+
 	@Override
 	public String toString() {
-		String actor = "No hay actor asignado";
-		if(this.actor!=null)
-			actor = this.actor.getNombre();
-		return "Direccion [codigo_direccion=" + codigo_direccion + ", calle=" + calle + ", num=" + num + ", actor=" + actor + "]";
+		return "Direccion [codigo_direccion=" + codigo_direccion + ", calle=" + calle + ", num=" + num + "]";
 	}
 	
 	

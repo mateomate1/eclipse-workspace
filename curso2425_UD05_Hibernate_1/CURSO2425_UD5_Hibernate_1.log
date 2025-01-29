@@ -2972,3 +2972,414 @@ Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'd1_0.actor' in 'fie
         (?, ?)
 2025-01-28 11:56:34,651 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [3]
 2025-01-28 11:56:34,651 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:INTEGER) <- [6]
+2025-01-29 11:05:11,581 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2025-01-29 11:05:11,636 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-01-29 11:05:11,671 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-01-29 11:05:11,861 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2025-01-29 11:05:11,862 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2025-01-29 11:05:11,862 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2025-01-29 11:05:11,880 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2025-01-29 11:05:12,035 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2025-01-29 11:05:12,067 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2025-01-29 11:05:12,090 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@47065dbf [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@43830987 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgf4snb81d97trb104qs1h|10027fc9, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@f9fae1c1 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgf4snb81d97trb104qs1h|2488b073, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgf4snb81d97trb104qs1h|ec2bf82, numHelperThreads -> 3 ]
+2025-01-29 11:05:14,075 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-29 11:05:14,141 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        direcciones
+        (calle, numero) 
+    values
+        (?, ?)
+2025-01-29 11:05:14,153 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Calle sinfin]
+2025-01-29 11:05:14,153 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:INTEGER) <- [12]
+2025-01-29 11:05:14,193 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        actores
+        (cod_direccion, nombre) 
+    values
+        (?, ?)
+2025-01-29 11:05:14,193 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [7]
+2025-01-29 11:05:14,193 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Santiago Segura]
+2025-01-29 11:05:14,205 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        direcciones
+        (calle, numero) 
+    values
+        (?, ?)
+2025-01-29 11:05:14,205 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Avenida del final]
+2025-01-29 11:05:14,205 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:INTEGER) <- [7]
+2025-01-29 11:05:14,207 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        actores
+        (cod_direccion, nombre) 
+    values
+        (?, ?)
+2025-01-29 11:05:14,208 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [8]
+2025-01-29 11:05:14,208 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Toni Acosta]
+2025-01-29 11:05:14,210 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        peliculas
+        (fecha_grabacion, titulo) 
+    values
+        (?, ?)
+2025-01-29 11:05:14,211 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:DATE) <- [2019-08-01]
+2025-01-29 11:05:14,212 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Padre no hay mas que uno]
+2025-01-29 11:05:14,250 [main] ERROR many2many_bidir_avanz_jpa.Programa       - Error en la persistencia de datos: Could not set value of type [java.lang.Integer]: 'many2many_bidir_avanz_jpa.ClaveProtagonista.codigoActor' (setter)
+2025-01-29 11:07:51,493 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2025-01-29 11:07:51,562 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-01-29 11:07:51,610 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-01-29 11:07:51,853 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2025-01-29 11:07:51,854 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2025-01-29 11:07:51,854 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2025-01-29 11:07:51,873 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2025-01-29 11:07:52,027 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2025-01-29 11:07:52,059 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2025-01-29 11:07:52,082 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@319a4ffd [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@ab6d5f09 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgf4snb81d9b97l15iapx3|10027fc9, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@61e53743 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgf4snb81d9b97l15iapx3|2488b073, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgf4snb81d9b97l15iapx3|ec2bf82, numHelperThreads -> 3 ]
+2025-01-29 11:07:53,752 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-29 11:07:53,813 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        direcciones
+        (calle, numero) 
+    values
+        (?, ?)
+2025-01-29 11:07:53,824 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Calle sinfin]
+2025-01-29 11:07:53,825 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:INTEGER) <- [12]
+2025-01-29 11:07:53,842 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        actores
+        (cod_direccion, nombre) 
+    values
+        (?, ?)
+2025-01-29 11:07:53,842 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [9]
+2025-01-29 11:07:53,842 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Santiago Segura]
+2025-01-29 11:07:53,844 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        direcciones
+        (calle, numero) 
+    values
+        (?, ?)
+2025-01-29 11:07:53,845 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Avenida del final]
+2025-01-29 11:07:53,845 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:INTEGER) <- [7]
+2025-01-29 11:07:53,846 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        actores
+        (cod_direccion, nombre) 
+    values
+        (?, ?)
+2025-01-29 11:07:53,846 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [10]
+2025-01-29 11:07:53,846 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Toni Acosta]
+2025-01-29 11:07:53,847 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        peliculas
+        (fecha_grabacion, titulo) 
+    values
+        (?, ?)
+2025-01-29 11:07:53,848 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:DATE) <- [2019-08-01]
+2025-01-29 11:07:53,848 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Padre no hay mas que uno]
+2025-01-29 11:07:53,865 [main] ERROR many2many_bidir_avanz_jpa.Programa       - Error en la persistencia de datos: Could not set value of type [java.lang.Integer]: 'many2many_bidir_avanz_jpa.ClaveProtagonista.codigoActor' (setter)
+2025-01-29 11:14:53,237 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2025-01-29 11:14:53,300 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-01-29 11:14:53,347 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-01-29 11:14:53,551 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2025-01-29 11:14:53,551 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2025-01-29 11:14:53,551 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2025-01-29 11:14:53,569 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2025-01-29 11:14:53,717 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2025-01-29 11:14:53,749 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2025-01-29 11:14:53,771 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@b0ffe27e [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@f856a160 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgf4snb81d9kalc14xkxkc|51768776, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@dcc7027d [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgf4snb81d9kalc14xkxkc|3f28bd56, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgf4snb81d9kalc14xkxkc|51a06cbe, numHelperThreads -> 3 ]
+2025-01-29 11:14:55,390 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-29 11:14:55,445 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        direcciones
+        (calle, numero) 
+    values
+        (?, ?)
+2025-01-29 11:14:55,456 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Calle sinfin]
+2025-01-29 11:14:55,456 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:INTEGER) <- [12]
+2025-01-29 11:14:55,469 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        actores
+        (cod_direccion, nombre) 
+    values
+        (?, ?)
+2025-01-29 11:14:55,469 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [11]
+2025-01-29 11:14:55,470 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Santiago Segura]
+2025-01-29 11:14:55,472 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        direcciones
+        (calle, numero) 
+    values
+        (?, ?)
+2025-01-29 11:14:55,472 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Avenida del final]
+2025-01-29 11:14:55,473 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:INTEGER) <- [7]
+2025-01-29 11:14:55,474 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        actores
+        (cod_direccion, nombre) 
+    values
+        (?, ?)
+2025-01-29 11:14:55,474 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [12]
+2025-01-29 11:14:55,474 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Toni Acosta]
+2025-01-29 11:14:55,475 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        peliculas
+        (fecha_grabacion, titulo) 
+    values
+        (?, ?)
+2025-01-29 11:14:55,476 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:DATE) <- [2019-08-01]
+2025-01-29 11:14:55,476 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Padre no hay mas que uno]
+2025-01-29 11:14:55,493 [main] ERROR many2many_bidir_avanz_jpa.Programa2      - Error en la persistencia de datos: Could not set value of type [java.lang.Integer]: 'many2many_bidir_avanz_jpa.ClaveProtagonista.codigoActor' (setter)
+2025-01-29 11:28:33,787 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2025-01-29 11:28:33,848 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-01-29 11:28:33,887 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-01-29 11:28:34,090 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2025-01-29 11:28:34,090 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2025-01-29 11:28:34,090 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2025-01-29 11:28:34,108 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2025-01-29 11:28:34,255 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2025-01-29 11:28:34,284 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2025-01-29 11:28:34,305 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@49fc1acb [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@9152d9ad [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgf4snb81da1vq2rfhv8t|51768776, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@75c33aca [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgf4snb81da1vq2rfhv8t|3f28bd56, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgf4snb81da1vq2rfhv8t|51a06cbe, numHelperThreads -> 3 ]
+2025-01-29 11:28:35,847 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-29 11:28:35,898 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        direcciones
+        (calle, numero) 
+    values
+        (?, ?)
+2025-01-29 11:28:35,908 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Calle sinfin]
+2025-01-29 11:28:35,909 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:INTEGER) <- [12]
+2025-01-29 11:28:35,928 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        actores
+        (cod_direccion, nombre) 
+    values
+        (?, ?)
+2025-01-29 11:28:35,929 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [13]
+2025-01-29 11:28:35,929 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Santiago Segura]
+2025-01-29 11:28:35,931 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        direcciones
+        (calle, numero) 
+    values
+        (?, ?)
+2025-01-29 11:28:35,932 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Avenida del final]
+2025-01-29 11:28:35,932 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:INTEGER) <- [7]
+2025-01-29 11:28:35,933 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        actores
+        (cod_direccion, nombre) 
+    values
+        (?, ?)
+2025-01-29 11:28:35,933 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [14]
+2025-01-29 11:28:35,933 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Toni Acosta]
+2025-01-29 11:28:35,935 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        peliculas
+        (fecha_grabacion, titulo) 
+    values
+        (?, ?)
+2025-01-29 11:28:35,935 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:DATE) <- [2019-08-01]
+2025-01-29 11:28:35,935 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Padre no hay mas que uno]
+2025-01-29 11:28:35,954 [main] ERROR many2many_bidir_avanz_jpa.Programa2      - Error en la persistencia de datos: Could not set value of type [java.lang.Integer]: 'many2many_bidir_avanz_jpa.ClaveProtagonista.codigoActor' (setter)
+2025-01-29 11:29:57,899 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2025-01-29 11:29:57,961 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-01-29 11:29:58,000 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-01-29 11:29:58,200 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2025-01-29 11:29:58,200 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2025-01-29 11:29:58,200 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2025-01-29 11:29:58,218 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2025-01-29 11:29:58,363 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2025-01-29 11:29:58,393 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2025-01-29 11:29:58,416 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@a02f21d4 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@e785e0b6 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgf4snb81da3omf199hz4q|51768776, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@cbf641d3 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgf4snb81da3omf199hz4q|3f28bd56, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgf4snb81da3omf199hz4q|51a06cbe, numHelperThreads -> 3 ]
+2025-01-29 11:29:59,957 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-29 11:30:00,009 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        direcciones
+        (calle, numero) 
+    values
+        (?, ?)
+2025-01-29 11:30:00,019 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Calle sinfin]
+2025-01-29 11:30:00,019 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:INTEGER) <- [12]
+2025-01-29 11:30:00,032 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        actores
+        (cod_direccion, nombre) 
+    values
+        (?, ?)
+2025-01-29 11:30:00,033 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [15]
+2025-01-29 11:30:00,033 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Santiago Segura]
+2025-01-29 11:30:00,035 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        direcciones
+        (calle, numero) 
+    values
+        (?, ?)
+2025-01-29 11:30:00,035 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Avenida del final]
+2025-01-29 11:30:00,035 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:INTEGER) <- [7]
+2025-01-29 11:30:00,036 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        actores
+        (cod_direccion, nombre) 
+    values
+        (?, ?)
+2025-01-29 11:30:00,037 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [16]
+2025-01-29 11:30:00,037 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Toni Acosta]
+2025-01-29 11:30:00,038 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        peliculas
+        (fecha_grabacion, titulo) 
+    values
+        (?, ?)
+2025-01-29 11:30:00,038 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:DATE) <- [2019-08-01]
+2025-01-29 11:30:00,038 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Padre no hay mas que uno]
+2025-01-29 11:30:00,078 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.cod_act,
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero,
+        a1_0.nombre 
+    from
+        actores a1_0 
+    left join
+        direcciones d1_0 
+            on d1_0.cod_dir=a1_0.cod_direccion 
+    where
+        a1_0.cod_act=?
+2025-01-29 11:30:00,079 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [15]
+2025-01-29 11:30:00,086 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        p1_0.cod_peli,
+        p1_0.fecha_grabacion,
+        p1_0.titulo 
+    from
+        peliculas p1_0 
+    where
+        p1_0.cod_peli=?
+2025-01-29 11:30:00,086 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [8]
+2025-01-29 11:30:00,096 [main] ERROR many2many_bidir_avanz_jpa.Programa2      - Error en la persistencia de datos: Could not set value of type [java.lang.Integer]: 'many2many_bidir_avanz_jpa.ClaveProtagonista.codigoActor' (setter)
+2025-01-29 11:50:57,686 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2025-01-29 11:50:57,740 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-01-29 11:50:57,776 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-01-29 11:50:57,968 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2025-01-29 11:50:57,968 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2025-01-29 11:50:57,968 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2025-01-29 11:50:57,984 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2025-01-29 11:50:58,124 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2025-01-29 11:50:58,154 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2025-01-29 11:50:58,175 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@2cd5d16c [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@4edf9517 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgf4snb81dauonz1xgidvs|5d8445d7, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@cbea5f1c [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgf4snb81dauonz1xgidvs|569bf9eb, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgf4snb81dauonz1xgidvs|2a2bb0eb, numHelperThreads -> 3 ]
+2025-01-29 11:50:59,771 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-29 11:51:00,133 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.cod_act,
+        a1_0.cod_direccion,
+        a1_0.nombre 
+    from
+        actores a1_0 
+    where
+        a1_0.nombre=?
+2025-01-29 11:51:00,147 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Jacobo]
+2025-01-29 11:51:00,156 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero 
+    from
+        direcciones d1_0 
+    where
+        d1_0.cod_dir=?
+2025-01-29 11:51:00,157 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [3]
+2025-01-29 11:51:00,175 [main] INFO  hql_jpa.Programa                         - Actor [codigo_actor=3, nombre=Jacobo, direc=Direccion [codigo_direccion=3, calle=Avenida no encontrada, num=100]]
+2025-01-29 11:51:00,177 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    1193100 nanoseconds spent acquiring 1 JDBC connections;
+    908500 nanoseconds spent releasing 1 JDBC connections;
+    13875800 nanoseconds spent preparing 2 JDBC statements;
+    2901900 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2025-01-29 12:04:18,937 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: PersistenciaPeliculas]
+2025-01-29 12:04:18,990 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-01-29 12:04:19,025 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-01-29 12:04:19,219 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2025-01-29 12:04:19,220 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=false, user=root}
+2025-01-29 12:04:19,220 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: false
+2025-01-29 12:04:19,237 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2025-01-29 12:04:19,376 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2025-01-29 12:04:19,405 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2025-01-29 12:04:19,428 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@68de6c7a [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@8ae83025 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgf4snb81dbbuwy14xmxnd|5d8445d7, idleConnectionTestPeriod -> 0, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@7f2fa2a [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgf4snb81dbbuwy14xmxnd|569bf9eb, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=false, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgf4snb81dbbuwy14xmxnd|2a2bb0eb, numHelperThreads -> 3 ]
+2025-01-29 12:04:21,094 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-29 12:04:21,427 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.cod_act,
+        a1_0.cod_direccion,
+        a1_0.nombre 
+    from
+        actores a1_0 
+    where
+        a1_0.nombre=?
+2025-01-29 12:04:21,437 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Jacobo]
+2025-01-29 12:04:21,446 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        d1_0.cod_dir,
+        d1_0.calle,
+        d1_0.numero 
+    from
+        direcciones d1_0 
+    where
+        d1_0.cod_dir=?
+2025-01-29 12:04:21,447 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [3]
+2025-01-29 12:04:21,462 [main] INFO  hql_jpa.Programa                         - Actor [codigo_actor=3, nombre=Jacobo, direc=Direccion [codigo_direccion=3, calle=Avenida no encontrada, num=100]]
+2025-01-29 12:04:21,547 [main] DEBUG org.hibernate.SQL                        - 
+    select
+        a1_0.nombre,
+        d1_0.calle,
+        d1_0.numero 
+    from
+        actores a1_0 
+    join
+        direcciones d1_0 
+            on d1_0.cod_dir=a1_0.cod_direccion 
+    where
+        a1_0.nombre=?
+2025-01-29 12:04:21,549 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Jacobo]
+2025-01-29 12:04:21,552 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    2459100 nanoseconds spent acquiring 2 JDBC connections;
+    1697600 nanoseconds spent releasing 2 JDBC connections;
+    10779700 nanoseconds spent preparing 3 JDBC statements;
+    4011000 nanoseconds spent executing 3 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}

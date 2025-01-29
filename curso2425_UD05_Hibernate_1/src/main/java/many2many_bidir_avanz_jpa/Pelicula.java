@@ -15,9 +15,10 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
-@Entity(name = "many2many_bidir_basic_jpa.Pelicula")
+@Entity(name = "many2many_bidir_avanz_jpa.Pelicula")
 @Table(name = "peliculas", schema = "peliculas_orm_2425")
 public class Pelicula implements Serializable{
 	private static final long serialVersionUID = 1L;
@@ -33,6 +34,7 @@ public class Pelicula implements Serializable{
 	@Column(name = "fecha_grabacion")
 	private LocalDate fecha_grab;
 	
+	@OneToMany(mappedBy = "pelicula")
 	private Set<Protagonista> colaboracionesEnLaPelicula = new HashSet<Protagonista>();
 
 	public Pelicula() {}
@@ -97,7 +99,15 @@ public class Pelicula implements Serializable{
 	public void setColaboracionesEnLaPelicula(Set<Protagonista> colaboracionesEnLaPelicula) {
 		this.colaboracionesEnLaPelicula = colaboracionesEnLaPelicula;
 	}
-
+	
+	public void addColaboraciones(Protagonista prot) {
+		colaboracionesEnLaPelicula.add(prot);
+	}
+	
+	public void removeColaboraciones(Protagonista prot) {
+		colaboracionesEnLaPelicula.remove(prot);
+	}
+	
 	/*
 	Consideramos los 4 atributos porque el codigo no lo informamos explicitamente y 
 	por tanto si tengo varias peliculas para un director todas ellas tienen codigo 

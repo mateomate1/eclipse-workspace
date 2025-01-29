@@ -3,6 +3,12 @@ package many2many_bidir_avanz_jpa;
 import java.io.Serializable;
 import java.util.Objects;
 
+import jakarta.persistence.Embeddable;
+
+/**
+ * Esta clase representa la primary key compuesta.
+ */
+@Embeddable //Con esta etiqueta indicamos que esta clase no es independiente, sino que estara dentro de esta clase
 public class ClaveProtagonista implements Serializable{
 	/**
 	 * 

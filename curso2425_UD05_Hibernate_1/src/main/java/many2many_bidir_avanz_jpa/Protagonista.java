@@ -3,15 +3,37 @@ package many2many_bidir_avanz_jpa;
 import java.io.Serializable;
 import java.util.Objects;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.EmbeddedId;
+import jakarta.persistence.Entity;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.MapsId;
+import jakarta.persistence.Table;
+
+@Entity(name="many2many_bidir_avanz_jpa.Protagonista")
+@Table(name = "protagonistas")
 public class Protagonista implements Serializable{
 	
-	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@EmbeddedId
 	private ClaveProtagonista clave;
 	
+	@Column(name = "es_protagonista")
 	private boolean esProta;
 	
+	@ManyToOne
+	@MapsId("codigoActor")//El codigo de actor de esta instancia Actor debe coincidir con el valor de ClaveProtagonista(PK)
+	@JoinColumn(name = "cod_actor")
 	private Actor actor;
 	
+	@ManyToOne
+	@MapsId("codigoPelicula")
+	@JoinColumn(name = "cod_pelicula")
 	private Pelicula pelicula;
 
 	/**
