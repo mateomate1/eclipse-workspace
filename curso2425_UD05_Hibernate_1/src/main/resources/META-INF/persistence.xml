@@ -28,6 +28,9 @@
 		
 		<class>hql_jpa.Actor</class>
 		<class>hql_jpa.Direccion</class>
+		
+		<class>one2one_bidir_jpa_PK_igual_FK.Director</class>
+		<class>one2one_bidir_jpa_PK_igual_FK.NacionalidadDirector</class>
 
 		<properties>
 			<property name="hibernate.connection.autocommit"
