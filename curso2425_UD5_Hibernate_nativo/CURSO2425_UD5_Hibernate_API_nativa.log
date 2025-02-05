@@ -1,0 +1,41 @@
+2025-02-05 12:16:41,161 [main] INFO  org.hibernate.Version                    - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-02-05 12:16:41,479 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-05 12:16:42,102 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/peliculas_orm_2425
+2025-02-05 12:16:42,103 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {password=****, autocommit=true, user=root}
+2025-02-05 12:16:42,135 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: true
+2025-02-05 12:16:42,157 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog                  - MLog clients using slf4j logging.
+2025-02-05 12:16:42,352 [main] INFO  com.mchange.v2.c3p0.C3P0Registry         - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2025-02-05 12:16:42,389 [main] INFO  org.hibernate.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: <unknown>
+2025-02-05 12:16:42,420 [main] INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@a35f4da6 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@9c1683b5 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgf4snb81nbuqtxof2piy|8a62297, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@ee7f927b [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgf4snb81nbuqtxof2piy|ba1f559, jdbcUrl -> jdbc:mysql://localhost:3306/peliculas_orm_2425, properties -> {password=******, autocommit=true, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgf4snb81nbuqtxof2piy|325bb9a6, numHelperThreads -> 3 ]
+2025-02-05 12:16:44,936 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-05 12:16:45,007 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        directores
+        (nombre, cod_director) 
+    values
+        (?, ?)
+2025-02-05 12:16:45,017 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Chris Wedge]
+2025-02-05 12:16:45,017 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:INTEGER) <- [103]
+2025-02-05 12:16:45,025 [main] DEBUG org.hibernate.SQL                        - 
+    insert 
+    into
+        peliculas
+        (cod_dire, fecha_grabacion, titulo) 
+    values
+        (?, ?, ?)
+2025-02-05 12:16:45,026 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:INTEGER) <- [103]
+2025-02-05 12:16:45,026 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2000-08-30]
+2025-02-05 12:16:45,026 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:VARCHAR) <- [Ice Age]
+2025-02-05 12:16:45,084 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    51400 nanoseconds spent acquiring 1 JDBC connections;
+    56400 nanoseconds spent releasing 1 JDBC connections;
+    7953200 nanoseconds spent preparing 2 JDBC statements;
+    11063600 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    11212000 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 1 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
