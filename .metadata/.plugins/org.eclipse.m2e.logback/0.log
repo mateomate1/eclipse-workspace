@@ -25160,3 +25160,13 @@ org.eclipse.core.runtime.CoreException: Launch configuration Programa2 reference
 2025-02-13 13:47:15,771 [Worker-50: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AAD_EX03_MateoAyarra:AAD_EX03_MateoAyarra:0.0.1-SNAPSHOT @ C:\Users\alumno\eclipse-workspace\AAD_EX03_MateoAyarra\pom.xml.
 2025-02-13 13:47:15,849 [Worker-50: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
 2025-02-13 13:47:15,850 [Worker-50: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-c3p0:jar:6.4.4.Final has been relocated to org.hibernate.orm:hibernate-c3p0:jar:6.4.4.Final
+2025-02-13 14:01:43,640 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@6ee30ede{STOPPING}[12.0.15,sto=0]
+2025-02-13 14:01:43,644 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@29e007de{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-02-13 14:01:43,845 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:391) - ... Waiting for all tasks ending
+2025-02-13 14:01:43,846 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:397) - Closing all component containers
+2025-02-13 14:01:43,847 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:403) - Closing FileSystemHelper
+2025-02-13 14:01:43,848 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:409) - ... Waiting for all tasks ending before shutting down the BackgroundExecutor
+2025-02-13 14:01:43,848 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:414) - Shutting down BackgroundExecutor
+2025-02-13 14:01:43,849 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:420) - Stopping all threads monitoring thread
+2025-02-13 14:01:43,849 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:425) - Closing ThreadHolder
+2025-02-13 14:01:43,849 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:430) - Shutting down ThreadSupplier
