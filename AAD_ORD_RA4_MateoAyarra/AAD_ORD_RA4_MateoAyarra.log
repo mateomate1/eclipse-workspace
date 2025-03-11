@@ -1,0 +1,17 @@
+2025-03-10 11:49:29,683 [main] INFO  es.ciudadescolar.DBOOManager             - Transaccion realizada con exito se procede a hacer commit
+2025-03-10 11:50:23,816 [main] INFO  es.ciudadescolar.DBOOManager             - Transaccion realizada con exito se procede a hacer commit
+2025-03-10 11:57:53,109 [main] WARN  es.ciudadescolar.DBOOManager             - No existe archivo de la BDOO creando archivo
+2025-03-10 11:57:53,350 [main] INFO  es.ciudadescolar.DBOOManager             - Transaccion realizada con exito se procede a hacer commit
+2025-03-10 11:57:58,591 [main] INFO  es.ciudadescolar.DBOOManager             - Transaccion realizada con exito se procede a hacer commit
+2025-03-10 12:00:07,896 [main] WARN  es.ciudadescolar.DBOOManager             - No existe archivo de la BDOO creando archivo
+2025-03-10 12:00:08,145 [main] INFO  es.ciudadescolar.DBOOManager             - Transaccion realizada con exito se procede a hacer commit
+2025-03-10 12:00:11,497 [main] INFO  es.ciudadescolar.DBOOManager             - Transaccion realizada con exito se procede a hacer commit
+2025-03-10 12:02:57,706 [main] INFO  es.ciudadescolar.DBOOManager             - Transaccion realizada con exito se procede a hacer commit
+2025-03-10 12:03:06,537 [main] INFO  es.ciudadescolar.DBOOManager             - Transaccion realizada con exito se procede a hacer commit
+2025-03-10 12:03:24,815 [main] INFO  es.ciudadescolar.DBOOManager             - Transaccion realizada con exito se procede a hacer commit
+2025-03-10 12:05:42,618 [main] INFO  es.ciudadescolar.DBOOManager             - Transaccion realizada con exito se procede a hacer commit
+2025-03-10 12:05:57,560 [main] INFO  es.ciudadescolar.DBOOManager             - Transaccion realizada con exito se procede a hacer commit
+2025-03-10 12:07:08,547 [main] INFO  es.ciudadescolar.DBOOManager             - Transaccion realizada con exito se procede a hacer commit
+2025-03-10 12:09:29,698 [main] INFO  es.ciudadescolar.DBOOManager             - Transaccion realizada con exito se procede a hacer commit
+2025-03-10 12:10:02,832 [main] INFO  es.ciudadescolar.DBOOManager             - Transaccion realizada con exito se procede a hacer commit
+2025-03-10 12:10:06,100 [main] INFO  es.ciudadescolar.DBOOManager             - Transaccion realizada con exito se procede a hacer commit
